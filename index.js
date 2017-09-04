@@ -15,6 +15,14 @@ client.on('message', message => {
     console.log(command);
   
     let args = message.content.split(" ").slice(1);
+
+    if (message.content === "ping") {
+        message.channel.send("pong");
+    } 
+    if (message.content === "pong") {
+        message.channel.send("ping");
+    }
+
 });
 
 client.login('MzU0MzU4MDA3Mzc2NjQyMDQ4.DI9FSg.7S8rB-lJ0WUBGcR6Rwga8LHO8gw');
