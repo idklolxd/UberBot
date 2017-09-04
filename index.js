@@ -25,4 +25,12 @@ client.on('message', message => {
 
 });
 
+function clean(text) {
+    if (typeof (text) === "string")
+      return text.replace(/`/g, "`" + String.fromCharCode(8203))
+      .replace(/@/g, "@" + String.fromCharCode(8203));
+    else
+      return text;
+  }
+
 client.login('MzU0MzU4MDA3Mzc2NjQyMDQ4.DI9FSg.7S8rB-lJ0WUBGcR6Rwga8LHO8gw');
