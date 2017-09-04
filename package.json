@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/idklolxd/uberbot/issues"
   },
-  "homepage": "https://github.com/idklolxd/uberbot#readme"
+  "homepage": "https://github.com/idklolxd/uberbot#readme",
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  }
 }
