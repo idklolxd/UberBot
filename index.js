@@ -1,5 +1,6 @@
 const discord = require('discord.js');
 const client = new discord.Client();
+const prefix = "$";
 
 client.on('ready', () => {
     client.user.setGame(client.guilds.size + ` servers | ` + `Do $help`)
