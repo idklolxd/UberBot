@@ -1,4 +1,5 @@
 const discord = require('discord.js');
+const ud = require('urban-dictionary');
 
 const TOKEN = "MzU0MzU4MDA3Mzc2NjQyMDQ4.DI9FSg.7S8rB-lJ0WUBGcR6Rwga8LHO8gw"
 const PREFIX = "$"
@@ -37,12 +38,29 @@ bot.on('message', function(message) {
             break;
         case "help":
             let embed = new discord.RichEmbed()
-            .setColor(0x2ECC71)
-            .addField('Commands:', `UberBot`)
-            .addField('ping', `Description: sends "pong!" \nUsage: $ping`)
-            .addField('info', `Description: tells you about the bot \nUsage: $info`)
-            .addField('8ball', `Description: Answers a question you ask like a Magic Eight Ball. (always true!) \nUsage: $8ball`)
-            message.channel.sendEmbed(embed).catch(console.error);
+                .setColor(0x2ECC71)
+                .addField('UberBot Commands')
+                .addField('ping', `Description: sends "pong!" \nUsage: ` + PREFIX + `ping`)
+                .addField('info', `Description: tells you about the bot \nUsage: ` + PREFIX + `info`)
+                .addField('8ball', `Description: Answers a question you ask like a Magic Eight Ball. (always true!) \nUsage: ` + PREFIX + `8ball`)
+            message.channel.send(embed).catch(console.error);
+            break;
+        case "urban":
+            let definition = args.join(' ');
+            message.channel.sendMessage("Looking... :mag:");
+            
+            ud.term(definition, function (error, entries, tags, sounds) {
+                if (error) {
+                  console.error(error.message)
+                  message.channel.sendMessage(error.message);
+                } else {
+                    let embed = new discord.RichEmbed()
+                    .setColor(0x2ECC71)
+                    .addField("**" + entries[0].word + "**")
+                    .addField('Definition', entries[0].definition)
+                    .addField('Example', entries[0].example)
+                }
+              })
             break;
         default:
             message.channel.send('Invalid Command.')
