@@ -36,10 +36,13 @@ bot.on('message', function(message) {
             message.channel.send(ball[Math.floor(Math.random () * ball.length)]);
             break;
         case "help":
-        let embed = new discord.RichEmbed()
-        .setColor(0x2ECC71)
-        .addField('Commands:', `UberBot`)
-        .addField('ping:', `sends "pong!" \n Usage: $ping`)
+            let embed = new discord.RichEmbed()
+            .setColor(0x2ECC71)
+            .addField('Commands:', `UberBot`)
+            .addField('ping', `Description: sends "pong!" \nUsage: $ping`)
+            .addField('info', `Description: tells you about the bot \nUsage: $info`)
+            .addField('8ball', `Description: Answers a question you ask like a Magic Eight Ball. (always true!) \nUsage: $8ball`)
+            message.channel.sendEmbed(embed).catch(console.error);
             break;
         default:
             message.channel.send('Invalid Command.')
