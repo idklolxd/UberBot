@@ -16,11 +16,11 @@ client.on('message', message => {
   
     let args = message.content.split(" ").slice(1);
 
-    if (message.content === "ping") {
-        message.channel.send("pong");
+    if (command === "ping") {
+        message.channel.sendMessage("pong");
     } 
-    if (message.content === "pong") {
-        message.channel.send("ping");
+    if (command === "pong") {
+        message.channel.sendMessage("ping");
     }
 
 });
