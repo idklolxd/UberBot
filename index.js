@@ -46,7 +46,8 @@ bot.on('message', function(message) {
             message.channel.send(embed).catch(console.error);
             break;
         case "urban":
-            let definition = args.join(' ');
+            let definition = args.slice(1).join(" ");
+
             message.channel.sendMessage("Looking... :mag:");
             
             ud.term(definition, function (error, entries, tags, sounds) {
@@ -56,9 +57,11 @@ bot.on('message', function(message) {
                 } else {
                     let embed = new discord.RichEmbed()
                     .setColor(0x2ECC71)
+                    .addField("Urban Dictionary", "")
                     .addField("**" + entries[0].word + "**")
                     .addField('Definition', entries[0].definition)
                     .addField('Example', entries[0].example)
+                    message.channel.send(embed).catch(console.error);
                 }
               })
             break;
