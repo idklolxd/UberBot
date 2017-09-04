@@ -1,5 +1,5 @@
 const discord = require('discord.js');
-const client = new Discord.Client();
+const client = new discord.Client();
 
 client.on('ready', () => {
     client.user.setGame(client.guilds.size + ` servers | ` + `Do $commands`)
