@@ -39,7 +39,7 @@ bot.on('message', function(message) {
         case "help":
             let embed = new discord.RichEmbed()
                 .setColor(0x2ECC71)
-                .addField('UberBot Commands')
+                .setTitle('UberBot Commands')
                 .addField('ping', `Description: sends "pong!" \nUsage: ` + PREFIX + `ping`)
                 .addField('info', `Description: tells you about the bot \nUsage: ` + PREFIX + `info`)
                 .addField('8ball', `Description: Answers a question you ask like a Magic Eight Ball. (always true!) \nUsage: ` + PREFIX + `8ball`)
@@ -57,7 +57,7 @@ bot.on('message', function(message) {
                 } else {
                     let embed = new discord.RichEmbed()
                     .setColor(0x2ECC71)
-                    .addField("Urban Dictionary", "")
+                    .setTitle("Urban Dictionary")
                     .addField("**" + entries[0].word + "**")
                     .addField('Definition', entries[0].definition)
                     .addField('Example', entries[0].example)
