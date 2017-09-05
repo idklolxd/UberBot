@@ -124,6 +124,20 @@ bot.on('message', function(message) {
                 play(connection, mesage);
             });
 
+            server.queue.push(args[1]);
+
+            break;
+        case "skip":
+            var server = servers[message.guild.id];
+
+            if (server.dispatcher) server.dispatcher.end();
+
+            break;
+        case "stop":
+            var server = servers[message.guild.id];
+
+            if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
+
             break;
         default:
             message.channel.send('Invalid Command.')
