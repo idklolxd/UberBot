@@ -20,6 +20,16 @@ bot.on('ready', function() {
     console.log('Ready!')
 });
 
+bot.on('guildMemberAdd', function(member) {
+    member.build.channels.find("name", "general").sendMessage(":inbox_tray: " + member.toString() + " has joined!")
+
+    member.addRole(member.guild.find("find", "Member"))
+});
+
+bot.on('guildMemberRemove', function(member) {
+    member.build.channels.find("name", "general").sendMessage(":outbox_tray: " + member.toString() + " has left.")
+});
+
 bot.on('message', function(message) {
     if (message.author.equals(bot.user)) return;
     if (!message.content.startsWith(PREFIX)) return;
@@ -39,6 +49,7 @@ bot.on('message', function(message) {
         case "help":
             let embed = new discord.RichEmbed()
                 .setColor(0x2ECC71)
+                .setThumbnail(bot.avatarURL)
                 .setTitle('UberBot Commands')
                 .addField('ping', `Description: sends "pong!" \nUsage: ` + PREFIX + `ping`)
                 .addField('info', `Description: tells you about the bot \nUsage: ` + PREFIX + `info`)
@@ -57,8 +68,7 @@ bot.on('message', function(message) {
                 } else {
                     let embed = new discord.RichEmbed()
                     .setColor(0x2ECC71)
-                    .setTitle("Urban Dictionary")
-                    .addField("**" + entries[0].word + "**")
+                    .addField("Urban Dictionary", "**" + entries[0].word + "**")
                     .addField('Definition', entries[0].definition)
                     .addField('Example', entries[0].example)
                     message.channel.send(embed).catch(console.error);
