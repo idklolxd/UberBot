@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/idklolxd/uberbot#readme",
   "dependencies": {
-    "discord.js": "^11.2.1"
+    "discord.js": "^11.2.1",
+    "opusscript": "0.0.3",
+    "ytdl-core": "^0.17.1"
   }
 }
