@@ -1,5 +1,6 @@
 const discord = require('discord.js');
 const ud = require('urban-dictionary');
+const YTDL = require('ytdl-core');
 
 const TOKEN = "MzU0MzU4MDA3Mzc2NjQyMDQ4.DI9FSg.7S8rB-lJ0WUBGcR6Rwga8LHO8gw"
 const PREFIX = "$"
@@ -13,9 +14,24 @@ var ball = ['Yes',
 
 const bot = new discord.Client();
 
+function play(connection, message) {
+    var server = servers[message.guild.id];
+
+    server.dispatcher = connection.playStream(YTDL(server.queue[0], {filter: 'audionly'}));
+
+    server.queue.shift();
+
+    server.dispatcher.on('end', function() {
+        if (server.queue[0]) play(connection, message);
+        else connection.disconnect();
+    });
+}
+
 function generateHex() {
     return '#'+Math.floor(Math.random()*16777215).toString(16);
 }
+
+var servers = {};
 
 //ffmpeg –version
 
@@ -88,8 +104,26 @@ bot.on('message', function(message) {
                 }
               })
             break;
-        case "":
+        case "play":
+            if (!args[1]) {
+                message.channel.send('Please provide a link');
+                return;
+            }
+
+            if (!message.member.voiceChannel) {
+                message.channel.send('You must be in a voice channel, dumbass.');
+                return;
+            }
             
+            if(!servers[message.guild.id]) servers[message.guild.id] = {
+                queue: []
+            };
+            var server = servers[message.guild.id];
+
+            if (!message.guild.voiceChannel) message.member.voiceChannel.join().then(function(connection) {
+                play(connection, mesage);
+            });
+
             break;
         default:
             message.channel.send('Invalid Command.')
