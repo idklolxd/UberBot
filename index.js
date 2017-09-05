@@ -13,6 +13,10 @@ var ball = ['Yes',
 
 const bot = new discord.Client();
 
+function generateHex() {
+    return '#'+Math.floor(Math.random()*16777215).toString(16);
+}
+
 //ffmpeg –version
 
 bot.on('ready', function() {
@@ -21,13 +25,22 @@ bot.on('ready', function() {
 });
 
 bot.on('guildMemberAdd', function(member) {
-    member.build.channels.find("name", "general").sendMessage(":inbox_tray: " + member.toString() + " has joined!")
+    member.guild.channels.find("name", "general").sendMessage(":inbox_tray: " + member.toString() + " has joined!")
 
-    member.addRole(member.guild.find("find", "Member"))
+    member.addRole(member.guild.roles.find("find", "Member"));
+
+    member.guild.createRole({
+        name: member.user.username,
+        color: generateHex(),
+        permissions: []
+
+    }).then(function(role) {
+        member.user.addRole(role);
+    });
 });
 
 bot.on('guildMemberRemove', function(member) {
-    member.build.channels.find("name", "general").sendMessage(":outbox_tray: " + member.toString() + " has left.")
+    member.guild.channels.find("name", "general").sendMessage(":outbox_tray: " + member.toString() + " has left.")
 });
 
 bot.on('message', function(message) {
@@ -74,6 +87,9 @@ bot.on('message', function(message) {
                     message.channel.send(embed).catch(console.error);
                 }
               })
+            break;
+        case "":
+            
             break;
         default:
             message.channel.send('Invalid Command.')
