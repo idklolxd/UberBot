@@ -17,7 +17,7 @@ const bot = new discord.Client();
 function play(connection, message) {
     var server = servers[message.guild.id];
 
-    server.dispatcher = connection.playStream(YTDL(server.queue[0], {filter: 'audionly'}));
+    server.dispatcher = connection.playStream(YTDL(server.queue[0], {filter: 'audioonly'}));
 
     server.queue.shift();
 
@@ -121,7 +121,7 @@ bot.on('message', function(message) {
             var server = servers[message.guild.id];
 
             if (!message.guild.voiceChannel) message.member.voiceChannel.join().then(function(connection) {
-                play(connection, mesage);
+                play(connection, message);
             });
 
             server.queue.push(args[1]);
