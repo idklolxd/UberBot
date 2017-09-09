@@ -109,6 +109,7 @@ bot.on('message', function(message) {
                 .addField('stop', `Description: stops the whole queue. \nUsage: ` + PREFIX + `stop`)
                 .addField('urban', `Description: finds a word on urban dictionary \nUsage: ` + PREFIX + `urban word`)
                 .addField('fotunecookie', `Description: Opens up a fotune cookie, without the cookie.  You'll get a fortune. \nUsage: ` + PREFIX + `fotunecookie`)
+                .addField('fotunecookie', `Description: Stabs a user.  It's gonna hurt, but who cares? \nUsage: ` + PREFIX + `stab @user`)
             message.channel.send(embed).catch(console.error);
             break;
         case "urban":
@@ -167,7 +168,7 @@ bot.on('message', function(message) {
             break;
         case "stab":
             let user = message.mentions.users.first();
-            if (user !== undefined) return;
+            if (!user === undefined) return;
             var randomNum = Math.floor(Math.random() * (25 - 1)) + 1;
             if (message.mentions.users.first().id !== "354358007376642048") {
             message.channel.send(`Took ` + randomNum + ` damage from ` + user +  `!`)
