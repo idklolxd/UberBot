@@ -2,8 +2,8 @@ const discord = require('discord.js');
 const ud = require('urban-dictionary');
 const YTDL = require('ytdl-core');
 
-const TOKEN = "MzU0MzU4MDA3Mzc2NjQyMDQ4.DI9FSg.7S8rB-lJ0WUBGcR6Rwga8LHO8gw"
-const PREFIX = "$"
+var tokenreal = "TXpVME16VTRNREEzTXpjMk5qUXlNRFE0LkRKREk2QS5aMTRVWklsMlBORVpPb0dHRlN0enlmZ29KOXM="
+const PREFIX = "u/"
 
 var ball = ['Yes',
 'No doubt about it',
@@ -11,6 +11,21 @@ var ball = ['Yes',
 'I say no',
 'No chance',
 'Dont think so'];
+
+var fortunes = [
+'You will get laid tonight.',
+'Something fishing is going on...',
+'You will find out you are gay.',
+'You will fall off a cliff.',
+'When you have sex your condom will burst.',
+'You will have tons of luck.',
+'You will learn how to play guitar and get bitches.',
+'Your friend will end try to kill himself.',
+'Hitler will come back from the dead and you must face him.',
+'You\'re gonna die from old age.'
+];
+
+const TOKEN = new Buffer(tokenreal, 'base64').toString('ascii');
 
 const bot = new discord.Client();
 
@@ -40,8 +55,14 @@ bot.on('ready', function() {
     console.log('Ready!')
 });
 
+bot.on("guildCreate", guild => {
+    bot.user.setGame(bot.guilds.size + ` servers | ` + `Do $help`)
+    console.log(`New guild added : ${guild.name}, owned by ${guild.owner.user.username}`)
+});
+
+
 bot.on('guildMemberAdd', function(member) {
-    member.guild.channels.find("name", "general").sendMessage(":inbox_tray: " + member.toString() + " has joined!")
+    member.guild.channels.find("name", "general").send(":inbox_tray: " + member.toString() + " has joined!")
 
     member.addRole(member.guild.roles.find("find", "Member"));
 
@@ -56,12 +77,12 @@ bot.on('guildMemberAdd', function(member) {
 });
 
 bot.on('guildMemberRemove', function(member) {
-    member.guild.channels.find("name", "general").sendMessage(":outbox_tray: " + member.toString() + " has left.")
+    member.guild.channels.find("name", "general").send(":outbox_tray: " + member.toString() + " has left.")
 });
 
 bot.on('message', function(message) {
     if (message.author.equals(bot.user)) return;
-    if (!message.content.startsWith(PREFIX)) return;
+    if (!message.content.startsWith(PREFIX.toLowerCase())) return;
 
     var args = message.content.substring(PREFIX.length).split(" ");
 
@@ -83,17 +104,22 @@ bot.on('message', function(message) {
                 .addField('ping', `Description: sends "pong!" \nUsage: ` + PREFIX + `ping`)
                 .addField('info', `Description: tells you about the bot \nUsage: ` + PREFIX + `info`)
                 .addField('8ball', `Description: Answers a question you ask like a Magic Eight Ball. (always true!) \nUsage: ` + PREFIX + `8ball`)
+                .addField('play', `Description: plays a song, any song. \nUsage: ` + PREFIX + `play youtube-link`)
+                .addField('skip', `Description: skips the current song. \nUsage: ` + PREFIX + `skip`)
+                .addField('stop', `Description: stops the whole queue. \nUsage: ` + PREFIX + `stop`)
+                .addField('urban', `Description: finds a word on urban dictionary \nUsage: ` + PREFIX + `urban word`)
+                .addField('fotunecookie', `Description: Opens up a fotune cookie, without the cookie.  You'll get a fortune. \nUsage: ` + PREFIX + `fotunecookie`)
             message.channel.send(embed).catch(console.error);
             break;
         case "urban":
             let definition = args.slice(1).join(" ");
 
-            message.channel.sendMessage("Looking... :mag:");
+            message.channel.send("Looking... :mag:");
             
             ud.term(definition, function (error, entries, tags, sounds) {
                 if (error) {
                   console.error(error.message)
-                  message.channel.sendMessage(error.message);
+                  message.channel.send(error.message);
                 } else {
                     let embed = new discord.RichEmbed()
                     .setColor(0x2ECC71)
@@ -138,6 +164,19 @@ bot.on('message', function(message) {
 
             if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
 
+            break;
+        case "stab":
+            let user = message.mentions.users.first();
+
+            var randomNum = Math.floor(Math.random() * (25 - 1)) + 1;
+            if (!message.mentions.users.first().id === bot.id) {
+            message.channel.sendMessage(`Took ` + randomNum + ` damage from ` + user +  `!`)
+            } else {
+                message.channel.sendMessage(`Ouch.`)
+            }
+            break;
+        case "fortunecookie":
+            message.channel.send(fortunes[Math.floor(Math.random () * fortunes.length)]);
             break;
         default:
             message.channel.send('Invalid Command.')
