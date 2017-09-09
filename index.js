@@ -29,6 +29,8 @@ const TOKEN = new Buffer(tokenreal, 'base64').toString('ascii');
 
 const bot = new discord.Client();
 
+const music = require('discord.js-music-v11');
+
 function play(connection, message) {
     var server = servers[message.guild.id];
 
@@ -54,6 +56,8 @@ bot.on('ready', function() {
     bot.user.setGame(bot.guilds.size + ` servers | ` + `Do $help`)
     console.log('Ready!')
 });
+
+music(Bot, {prefix: PREFIX, global: false, maxQueueSize: 20, anyoneCanSkip: true, clearInvoker: false, volume: 0.5});
 
 bot.on("guildCreate", guild => {
     bot.user.setGame(bot.guilds.size + ` servers | ` + `Do $help`)
@@ -131,6 +135,7 @@ bot.on('message', function(message) {
                 }
               })
             break;
+            /*
         case "play":
             if (!args[1]) {
                 message.channel.send('Please provide a link');
@@ -166,6 +171,7 @@ bot.on('message', function(message) {
             if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
 
             break;
+            */
         case "stab":
             let user = message.mentions.users.first();
             if (!user === undefined) return;
