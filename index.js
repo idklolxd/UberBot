@@ -57,7 +57,7 @@ bot.on('ready', function() {
     console.log('Ready!')
 });
 
-music(Bot, {prefix: PREFIX, global: false, maxQueueSize: 20, anyoneCanSkip: true, clearInvoker: false, volume: 0.5});
+music(bot, {prefix: PREFIX, global: false, maxQueueSize: 20, anyoneCanSkip: true, clearInvoker: false, volume: 100});
 
 bot.on("guildCreate", guild => {
     bot.user.setGame(bot.guilds.size + ` servers | ` + `Do $help`)
@@ -108,9 +108,13 @@ bot.on('message', function(message) {
                 .addField('ping', `Description: sends "pong!" \nUsage: ` + PREFIX + `ping`)
                 .addField('info', `Description: tells you about the bot \nUsage: ` + PREFIX + `info`)
                 .addField('8ball', `Description: Answers a question you ask like a Magic Eight Ball. (always true!) \nUsage: ` + PREFIX + `8ball`)
-                .addField('play', `Description: plays a song, any song. \nUsage: ` + PREFIX + `play youtube-link`)
-                .addField('skip', `Description: skips the current song. \nUsage: ` + PREFIX + `skip`)
-                .addField('stop', `Description: stops the whole queue. \nUsage: ` + PREFIX + `stop`)
+                .addField('play', `Description: plays a song, any song. \nUsage: ` + PREFIX + `play youtube-link or song`)
+                .addField('skip', `Description: skips the current song. \nUsage: ` + PREFIX + `skip number`)
+                .addField('queue', `Description: shows queue \nUsage: ` + PREFIX + `queue`)
+                .addField('pauses', `Description: pauses \nUsage: ` + PREFIX + `pause`)
+                .addField('resume', `Description: resumes \nUsage: ` + PREFIX + `resumes`)
+                .addField('volume', `Description: Adjust the playback volume between 1 and 200 \nUsage: ` + PREFIX + `volume number`)
+                .addField('clearqueue', `Description: clears queue. \nUsage: ` + PREFIX + `clearqueue`)
                 .addField('urban', `Description: finds a word on urban dictionary \nUsage: ` + PREFIX + `urban word`)
                 .addField('fotunecookie', `Description: Opens up a fotune cookie, without the cookie.  You'll get a fortune. \nUsage: ` + PREFIX + `fotunecookie`)
                 .addField('fotunecookie', `Description: Stabs a user.  It's gonna hurt, but who cares? \nUsage: ` + PREFIX + `stab @user`)
@@ -135,43 +139,33 @@ bot.on('message', function(message) {
                 }
               })
             break;
-            /*
         case "play":
-            if (!args[1]) {
-                message.channel.send('Please provide a link');
-                return;
-            }
-
-            if (!message.member.voiceChannel) {
-                message.channel.send('You must be in a voice channel, dumbass.');
-                return;
-            }
-            
-            if(!servers[message.guild.id]) servers[message.guild.id] = {
-                queue: []
-            };
-            var server = servers[message.guild.id];
-
-            if (!message.guild.voiceChannel) message.member.voiceChannel.join().then(function(connection) {
-                play(connection, message);
-            });
-
-            server.queue.push(args[1]);
-
+            console.log('play');
+            break;
+        case "volume":
+            console.log('play');
             break;
         case "skip":
-            var server = servers[message.guild.id];
-
-            if (server.dispatcher) server.dispatcher.end();
-
+            console.log('play');
             break;
         case "stop":
-            var server = servers[message.guild.id];
-
-            if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
-
+            console.log('play');
             break;
-            */
+        case "queue":
+            console.log('play');
+            break;
+        case "pause":
+            console.log('play');
+            break;
+        case "resume":
+            console.log('play');
+            break;
+        case "leave":
+            console.log('play');
+            break;
+        case "clearqueue":
+            console.log('play');
+            break;
         case "stab":
             let user = message.mentions.users.first();
             if (!user === undefined) return;

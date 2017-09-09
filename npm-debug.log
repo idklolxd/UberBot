@@ -1,0 +1,2465 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node-opus' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData node-opus
+8 silly fetchNamedPackageData node-opus
+9 silly mapToRegistry name node-opus
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'node-opus',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'node-opus',
+12 silly mapToRegistry   name: 'node-opus',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/node-opus
+14 verbose request uri https://registry.npmjs.org/node-opus
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 5:27:47 PM
+17 verbose request id a7956571561854d1
+18 http request GET https://registry.npmjs.org/node-opus
+19 http 200 https://registry.npmjs.org/node-opus
+20 verbose headers { server: 'nginx/1.10.1',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Sat, 09 Sep 2017 11:39:01 GMT',
+20 verbose headers   etag: 'W/"59b3d2d5-73df"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '4076',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Sat, 09 Sep 2017 23:27:41 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-ord1734-ORD',
+20 verbose headers   'x-cache': 'HIT',
+20 verbose headers   'x-cache-hits': '1',
+20 verbose headers   'x-timer': 'S1504999661.247224,VS0,VE53',
+20 verbose headers   vary: 'Accept-Encoding, Accept' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.10.1',
+21 silly get     'content-type': 'application/json',
+21 silly get     'last-modified': 'Sat, 09 Sep 2017 11:39:01 GMT',
+21 silly get     etag: 'W/"59b3d2d5-73df"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '4076',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Sat, 09 Sep 2017 23:27:41 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-ord1734-ORD',
+21 silly get     'x-cache': 'HIT',
+21 silly get     'x-cache-hits': '1',
+21 silly get     'x-timer': 'S1504999661.247224,VS0,VE53',
+21 silly get     vary: 'Accept-Encoding, Accept' } ]
+22 verbose get saving node-opus to C:\Users\Kieran\AppData\Roaming\npm-cache\registry.npmjs.org\node-opus\.cache.json
+23 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule node-opus@0.2.7 checking installable status
+37 silly cache add args [ 'node-opus', null ]
+38 verbose cache add spec node-opus
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'node-opus',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'node-opus',
+39 silly cache add   name: 'node-opus',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed node-opus@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for node-opus
+42 info addNameTag [ 'node-opus', 'latest' ]
+43 silly mapToRegistry name node-opus
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'node-opus',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'node-opus',
+46 silly mapToRegistry   name: 'node-opus',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/node-opus
+48 verbose addNameTag registry:https://registry.npmjs.org/node-opus not in flight; fetching
+49 verbose get https://registry.npmjs.org/node-opus not expired, no request
+50 silly addNameTag next cb for node-opus with tag latest
+51 silly addNamed node-opus@0.2.7
+52 verbose addNamed "0.2.7" is a plain semver version for node-opus
+53 silly mapToRegistry name node-opus
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'node-opus',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'node-opus',
+56 silly mapToRegistry   name: 'node-opus',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/node-opus
+58 verbose addRemoteTarball https://registry.npmjs.org/node-opus/-/node-opus-0.2.7.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-opus/-/node-opus-0.2.7.tgz',
+59 verbose addRemoteTarball   '5b726e29795b0b127b4c87e662d4de816840579c' ]
+60 info retry fetch attempt 1 at 5:27:51 PM
+61 info attempt registry request try #1 at 5:27:51 PM
+62 http fetch GET https://registry.npmjs.org/node-opus/-/node-opus-0.2.7.tgz
+63 http fetch 200 https://registry.npmjs.org/node-opus/-/node-opus-0.2.7.tgz
+64 silly fetchAndShaCheck shasum 5b726e29795b0b127b4c87e662d4de816840579c
+65 verbose addTmpTarball C:\Users\Kieran\AppData\Local\Temp\npm-5644-41bca7d8\registry.npmjs.org\node-opus\-\node-opus-0.2.7.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for node-opus@0.2.7
+67 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+68 silly cache afterAdd node-opus@0.2.7
+69 verbose afterAdd C:\Users\Kieran\AppData\Roaming\npm-cache\node-opus\0.2.7\package\package.json not in flight; writing
+70 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+71 verbose afterAdd C:\Users\Kieran\AppData\Roaming\npm-cache\node-opus\0.2.7\package\package.json written
+72 silly fetchNamedPackageData bindings
+73 silly mapToRegistry name bindings
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'bindings',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'bindings',
+76 silly mapToRegistry   name: 'bindings',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/bindings
+78 silly fetchNamedPackageData nan
+79 silly mapToRegistry name nan
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'nan',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'nan',
+82 silly mapToRegistry   name: 'nan',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/nan
+84 silly fetchNamedPackageData ogg-packet
+85 silly mapToRegistry name ogg-packet
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'ogg-packet',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'ogg-packet',
+88 silly mapToRegistry   name: 'ogg-packet',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/ogg-packet
+90 verbose request uri https://registry.npmjs.org/bindings
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 5:28:10 PM
+93 http request GET https://registry.npmjs.org/bindings
+94 verbose request uri https://registry.npmjs.org/ogg-packet
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 5:28:10 PM
+97 http request GET https://registry.npmjs.org/ogg-packet
+98 http 200 https://registry.npmjs.org/bindings
+99 verbose headers { server: 'nginx/1.10.1',
+99 verbose headers   'content-type': 'application/json',
+99 verbose headers   'last-modified': 'Fri, 08 Sep 2017 12:19:32 GMT',
+99 verbose headers   etag: 'W/"59b28ad4-4c18"',
+99 verbose headers   'content-encoding': 'gzip',
+99 verbose headers   'cache-control': 'max-age=300',
+99 verbose headers   'content-length': '3855',
+99 verbose headers   'accept-ranges': 'bytes',
+99 verbose headers   date: 'Sat, 09 Sep 2017 23:28:02 GMT',
+99 verbose headers   via: '1.1 varnish',
+99 verbose headers   age: '125',
+99 verbose headers   connection: 'keep-alive',
+99 verbose headers   'x-served-by': 'cache-ord1734-ORD',
+99 verbose headers   'x-cache': 'HIT',
+99 verbose headers   'x-cache-hits': '1',
+99 verbose headers   'x-timer': 'S1504999683.988106,VS0,VE0',
+99 verbose headers   vary: 'Accept-Encoding, Accept' }
+100 silly get cb [ 200,
+100 silly get   { server: 'nginx/1.10.1',
+100 silly get     'content-type': 'application/json',
+100 silly get     'last-modified': 'Fri, 08 Sep 2017 12:19:32 GMT',
+100 silly get     etag: 'W/"59b28ad4-4c18"',
+100 silly get     'content-encoding': 'gzip',
+100 silly get     'cache-control': 'max-age=300',
+100 silly get     'content-length': '3855',
+100 silly get     'accept-ranges': 'bytes',
+100 silly get     date: 'Sat, 09 Sep 2017 23:28:02 GMT',
+100 silly get     via: '1.1 varnish',
+100 silly get     age: '125',
+100 silly get     connection: 'keep-alive',
+100 silly get     'x-served-by': 'cache-ord1734-ORD',
+100 silly get     'x-cache': 'HIT',
+100 silly get     'x-cache-hits': '1',
+100 silly get     'x-timer': 'S1504999683.988106,VS0,VE0',
+100 silly get     vary: 'Accept-Encoding, Accept' } ]
+101 verbose get saving bindings to C:\Users\Kieran\AppData\Roaming\npm-cache\registry.npmjs.org\bindings\.cache.json
+102 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+103 verbose request uri https://registry.npmjs.org/nan
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 5:28:10 PM
+106 verbose etag W/"59a60a0b-20228"
+107 verbose lastModified Wed, 30 Aug 2017 00:42:51 GMT
+108 http request GET https://registry.npmjs.org/nan
+109 http 304 https://registry.npmjs.org/nan
+110 verbose headers { date: 'Sat, 09 Sep 2017 23:28:03 GMT',
+110 verbose headers   via: '1.1 varnish',
+110 verbose headers   'cache-control': 'max-age=300',
+110 verbose headers   etag: 'W/"59a60a0b-20228"',
+110 verbose headers   age: '222',
+110 verbose headers   connection: 'keep-alive',
+110 verbose headers   'x-served-by': 'cache-ord1734-ORD',
+110 verbose headers   'x-cache': 'HIT',
+110 verbose headers   'x-cache-hits': '1',
+110 verbose headers   'x-timer': 'S1504999683.253850,VS0,VE1',
+110 verbose headers   vary: 'Accept-Encoding, Accept' }
+111 silly get cb [ 304,
+111 silly get   { date: 'Sat, 09 Sep 2017 23:28:03 GMT',
+111 silly get     via: '1.1 varnish',
+111 silly get     'cache-control': 'max-age=300',
+111 silly get     etag: 'W/"59a60a0b-20228"',
+111 silly get     age: '222',
+111 silly get     connection: 'keep-alive',
+111 silly get     'x-served-by': 'cache-ord1734-ORD',
+111 silly get     'x-cache': 'HIT',
+111 silly get     'x-cache-hits': '1',
+111 silly get     'x-timer': 'S1504999683.253850,VS0,VE1',
+111 silly get     vary: 'Accept-Encoding, Accept' } ]
+112 verbose etag https://registry.npmjs.org/nan from cache
+113 verbose get saving nan to C:\Users\Kieran\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+114 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+115 silly resolveWithNewModule bindings@1.2.1 checking installable status
+116 silly cache add args [ 'bindings@~1.2.1', null ]
+117 verbose cache add spec bindings@~1.2.1
+118 silly cache add parsed spec Result {
+118 silly cache add   raw: 'bindings@~1.2.1',
+118 silly cache add   scope: null,
+118 silly cache add   escapedName: 'bindings',
+118 silly cache add   name: 'bindings',
+118 silly cache add   rawSpec: '~1.2.1',
+118 silly cache add   spec: '>=1.2.1 <1.3.0',
+118 silly cache add   type: 'range' }
+119 silly addNamed bindings@>=1.2.1 <1.3.0
+120 verbose addNamed ">=1.2.1 <1.3.0" is a valid semver range for bindings
+121 silly addNameRange { name: 'bindings', range: '>=1.2.1 <1.3.0', hasData: false }
+122 silly mapToRegistry name bindings
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry data Result {
+125 silly mapToRegistry   raw: 'bindings',
+125 silly mapToRegistry   scope: null,
+125 silly mapToRegistry   escapedName: 'bindings',
+125 silly mapToRegistry   name: 'bindings',
+125 silly mapToRegistry   rawSpec: '',
+125 silly mapToRegistry   spec: 'latest',
+125 silly mapToRegistry   type: 'tag' }
+126 silly mapToRegistry uri https://registry.npmjs.org/bindings
+127 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+128 http 200 https://registry.npmjs.org/ogg-packet
+129 verbose headers { server: 'nginx/1.10.1',
+129 verbose headers   'content-type': 'application/json',
+129 verbose headers   'last-modified': 'Sun, 02 Dec 2012 20:50:13 GMT',
+129 verbose headers   etag: 'W/"50bbbf05-122e"',
+129 verbose headers   'content-encoding': 'gzip',
+129 verbose headers   'cache-control': 'max-age=300',
+129 verbose headers   'content-length': '1236',
+129 verbose headers   'accept-ranges': 'bytes',
+129 verbose headers   date: 'Sat, 09 Sep 2017 23:28:03 GMT',
+129 verbose headers   via: '1.1 varnish',
+129 verbose headers   age: '0',
+129 verbose headers   connection: 'keep-alive',
+129 verbose headers   'x-served-by': 'cache-ord1743-ORD',
+129 verbose headers   'x-cache': 'HIT',
+129 verbose headers   'x-cache-hits': '1',
+129 verbose headers   'x-timer': 'S1504999683.240333,VS0,VE251',
+129 verbose headers   vary: 'Accept-Encoding, Accept' }
+130 silly get cb [ 200,
+130 silly get   { server: 'nginx/1.10.1',
+130 silly get     'content-type': 'application/json',
+130 silly get     'last-modified': 'Sun, 02 Dec 2012 20:50:13 GMT',
+130 silly get     etag: 'W/"50bbbf05-122e"',
+130 silly get     'content-encoding': 'gzip',
+130 silly get     'cache-control': 'max-age=300',
+130 silly get     'content-length': '1236',
+130 silly get     'accept-ranges': 'bytes',
+130 silly get     date: 'Sat, 09 Sep 2017 23:28:03 GMT',
+130 silly get     via: '1.1 varnish',
+130 silly get     age: '0',
+130 silly get     connection: 'keep-alive',
+130 silly get     'x-served-by': 'cache-ord1743-ORD',
+130 silly get     'x-cache': 'HIT',
+130 silly get     'x-cache-hits': '1',
+130 silly get     'x-timer': 'S1504999683.240333,VS0,VE251',
+130 silly get     vary: 'Accept-Encoding, Accept' } ]
+131 verbose get saving ogg-packet to C:\Users\Kieran\AppData\Roaming\npm-cache\registry.npmjs.org\ogg-packet\.cache.json
+132 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+133 verbose get https://registry.npmjs.org/bindings not expired, no request
+134 silly addNameRange number 2 { name: 'bindings', range: '>=1.2.1 <1.3.0', hasData: true }
+135 silly addNameRange versions [ 'bindings',
+135 silly addNameRange   [ '0.0.1',
+135 silly addNameRange     '0.1.0',
+135 silly addNameRange     '0.1.1',
+135 silly addNameRange     '0.2.0',
+135 silly addNameRange     '0.2.1',
+135 silly addNameRange     '0.2.2',
+135 silly addNameRange     '0.2.3',
+135 silly addNameRange     '0.2.4',
+135 silly addNameRange     '0.3.0',
+135 silly addNameRange     '0.4.0',
+135 silly addNameRange     '1.0.0',
+135 silly addNameRange     '1.1.0',
+135 silly addNameRange     '1.1.1',
+135 silly addNameRange     '1.2.0',
+135 silly addNameRange     '1.2.1',
+135 silly addNameRange     '1.3.0' ] ]
+136 silly addNamed bindings@1.2.1
+137 verbose addNamed "1.2.1" is a plain semver version for bindings
+138 silly mapToRegistry name bindings
+139 silly mapToRegistry using default registry
+140 silly mapToRegistry registry https://registry.npmjs.org/
+141 silly mapToRegistry data Result {
+141 silly mapToRegistry   raw: 'bindings',
+141 silly mapToRegistry   scope: null,
+141 silly mapToRegistry   escapedName: 'bindings',
+141 silly mapToRegistry   name: 'bindings',
+141 silly mapToRegistry   rawSpec: '',
+141 silly mapToRegistry   spec: 'latest',
+141 silly mapToRegistry   type: 'tag' }
+142 silly mapToRegistry uri https://registry.npmjs.org/bindings
+143 verbose addRemoteTarball https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz not in flight; adding
+144 verbose addRemoteTarball [ 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz',
+144 verbose addRemoteTarball   '14ad6113812d2d37d72e67b4cacb4bb726505f11' ]
+145 silly resolveWithNewModule nan@2.7.0 checking installable status
+146 silly cache add args [ 'nan@^2.3.2', null ]
+147 verbose cache add spec nan@^2.3.2
+148 silly cache add parsed spec Result {
+148 silly cache add   raw: 'nan@^2.3.2',
+148 silly cache add   scope: null,
+148 silly cache add   escapedName: 'nan',
+148 silly cache add   name: 'nan',
+148 silly cache add   rawSpec: '^2.3.2',
+148 silly cache add   spec: '>=2.3.2 <3.0.0',
+148 silly cache add   type: 'range' }
+149 silly addNamed nan@>=2.3.2 <3.0.0
+150 verbose addNamed ">=2.3.2 <3.0.0" is a valid semver range for nan
+151 silly addNameRange { name: 'nan', range: '>=2.3.2 <3.0.0', hasData: false }
+152 silly mapToRegistry name nan
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry https://registry.npmjs.org/
+155 silly mapToRegistry data Result {
+155 silly mapToRegistry   raw: 'nan',
+155 silly mapToRegistry   scope: null,
+155 silly mapToRegistry   escapedName: 'nan',
+155 silly mapToRegistry   name: 'nan',
+155 silly mapToRegistry   rawSpec: '',
+155 silly mapToRegistry   spec: 'latest',
+155 silly mapToRegistry   type: 'tag' }
+156 silly mapToRegistry uri https://registry.npmjs.org/nan
+157 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+158 info retry fetch attempt 1 at 5:28:11 PM
+159 info attempt registry request try #1 at 5:28:11 PM
+160 http fetch GET https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+161 verbose get https://registry.npmjs.org/nan not expired, no request
+162 silly addNameRange number 2 { name: 'nan', range: '>=2.3.2 <3.0.0', hasData: true }
+163 silly addNameRange versions [ 'nan',
+163 silly addNameRange   [ '0.3.0-wip',
+163 silly addNameRange     '0.3.0-wip2',
+163 silly addNameRange     '0.3.0',
+163 silly addNameRange     '0.3.1',
+163 silly addNameRange     '0.3.2',
+163 silly addNameRange     '0.4.0',
+163 silly addNameRange     '0.4.1',
+163 silly addNameRange     '0.4.2',
+163 silly addNameRange     '0.4.3',
+163 silly addNameRange     '0.4.4',
+163 silly addNameRange     '0.5.0',
+163 silly addNameRange     '0.5.1',
+163 silly addNameRange     '0.5.2',
+163 silly addNameRange     '0.6.0',
+163 silly addNameRange     '0.7.0',
+163 silly addNameRange     '0.7.1',
+163 silly addNameRange     '0.8.0',
+163 silly addNameRange     '1.0.0',
+163 silly addNameRange     '1.1.0',
+163 silly addNameRange     '1.1.1',
+163 silly addNameRange     '1.1.2',
+163 silly addNameRange     '1.2.0',
+163 silly addNameRange     '1.3.0',
+163 silly addNameRange     '1.4.0',
+163 silly addNameRange     '1.4.1',
+163 silly addNameRange     '1.5.0',
+163 silly addNameRange     '1.4.2',
+163 silly addNameRange     '1.4.3',
+163 silly addNameRange     '1.5.1',
+163 silly addNameRange     '1.5.2',
+163 silly addNameRange     '1.6.0',
+163 silly addNameRange     '1.5.3',
+163 silly addNameRange     '1.6.1',
+163 silly addNameRange     '1.6.2',
+163 silly addNameRange     '1.7.0',
+163 silly addNameRange     '1.8.0',
+163 silly addNameRange     '1.8.1',
+163 silly addNameRange     '1.8.2',
+163 silly addNameRange     '1.8.3',
+163 silly addNameRange     '1.8.4',
+163 silly addNameRange     '1.9.0',
+163 silly addNameRange     '2.0.0',
+163 silly addNameRange     '2.0.1',
+163 silly addNameRange     '2.0.2',
+163 silly addNameRange     '2.0.3',
+163 silly addNameRange     '2.0.4',
+163 silly addNameRange     '2.0.5',
+163 silly addNameRange     '2.0.6',
+163 silly addNameRange     '2.0.7',
+163 silly addNameRange     '2.0.8',
+163 silly addNameRange     '2.0.9',
+163 silly addNameRange     '2.1.0',
+163 silly addNameRange     '2.2.0',
+163 silly addNameRange     '2.2.1',
+163 silly addNameRange     '2.3.0',
+163 silly addNameRange     '2.3.1',
+163 silly addNameRange     '2.3.2',
+163 silly addNameRange     '2.3.3',
+163 silly addNameRange     '2.3.4',
+163 silly addNameRange     '2.3.5',
+163 silly addNameRange     '2.4.0',
+163 silly addNameRange     '2.5.0',
+163 silly addNameRange     '2.5.1',
+163 silly addNameRange     '2.6.0',
+163 silly addNameRange     '2.6.1',
+163 silly addNameRange     '2.6.2',
+163 silly addNameRange     '2.7.0' ] ]
+164 silly addNamed nan@2.7.0
+165 verbose addNamed "2.7.0" is a plain semver version for nan
+166 silly mapToRegistry name nan
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry data Result {
+169 silly mapToRegistry   raw: 'nan',
+169 silly mapToRegistry   scope: null,
+169 silly mapToRegistry   escapedName: 'nan',
+169 silly mapToRegistry   name: 'nan',
+169 silly mapToRegistry   rawSpec: '',
+169 silly mapToRegistry   spec: 'latest',
+169 silly mapToRegistry   type: 'tag' }
+170 silly mapToRegistry uri https://registry.npmjs.org/nan
+171 verbose addRemoteTarball https://registry.npmjs.org/nan/-/nan-2.7.0.tgz not in flight; adding
+172 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-2.7.0.tgz',
+172 verbose addRemoteTarball   'd95bf721ec877e08db276ed3fc6eb78f9083ad46' ]
+173 http fetch 200 https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+174 info retry fetch attempt 1 at 5:28:11 PM
+175 info attempt registry request try #1 at 5:28:11 PM
+176 http fetch GET https://registry.npmjs.org/nan/-/nan-2.7.0.tgz
+177 silly resolveWithNewModule ogg-packet@1.0.0 checking installable status
+178 silly cache add args [ 'ogg-packet@^1.0.0', null ]
+179 verbose cache add spec ogg-packet@^1.0.0
+180 silly cache add parsed spec Result {
+180 silly cache add   raw: 'ogg-packet@^1.0.0',
+180 silly cache add   scope: null,
+180 silly cache add   escapedName: 'ogg-packet',
+180 silly cache add   name: 'ogg-packet',
+180 silly cache add   rawSpec: '^1.0.0',
+180 silly cache add   spec: '>=1.0.0 <2.0.0',
+180 silly cache add   type: 'range' }
+181 silly addNamed ogg-packet@>=1.0.0 <2.0.0
+182 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for ogg-packet
+183 silly addNameRange { name: 'ogg-packet', range: '>=1.0.0 <2.0.0', hasData: false }
+184 silly mapToRegistry name ogg-packet
+185 silly mapToRegistry using default registry
+186 silly mapToRegistry registry https://registry.npmjs.org/
+187 silly mapToRegistry data Result {
+187 silly mapToRegistry   raw: 'ogg-packet',
+187 silly mapToRegistry   scope: null,
+187 silly mapToRegistry   escapedName: 'ogg-packet',
+187 silly mapToRegistry   name: 'ogg-packet',
+187 silly mapToRegistry   rawSpec: '',
+187 silly mapToRegistry   spec: 'latest',
+187 silly mapToRegistry   type: 'tag' }
+188 silly mapToRegistry uri https://registry.npmjs.org/ogg-packet
+189 verbose addNameRange registry:https://registry.npmjs.org/ogg-packet not in flight; fetching
+190 http fetch 200 https://registry.npmjs.org/nan/-/nan-2.7.0.tgz
+191 silly fetchAndShaCheck shasum 14ad6113812d2d37d72e67b4cacb4bb726505f11
+192 verbose get https://registry.npmjs.org/ogg-packet not expired, no request
+193 silly addNameRange number 2 { name: 'ogg-packet', range: '>=1.0.0 <2.0.0', hasData: true }
+194 silly addNameRange versions [ 'ogg-packet', [ '1.0.0' ] ]
+195 silly addNamed ogg-packet@1.0.0
+196 verbose addNamed "1.0.0" is a plain semver version for ogg-packet
+197 silly mapToRegistry name ogg-packet
+198 silly mapToRegistry using default registry
+199 silly mapToRegistry registry https://registry.npmjs.org/
+200 silly mapToRegistry data Result {
+200 silly mapToRegistry   raw: 'ogg-packet',
+200 silly mapToRegistry   scope: null,
+200 silly mapToRegistry   escapedName: 'ogg-packet',
+200 silly mapToRegistry   name: 'ogg-packet',
+200 silly mapToRegistry   rawSpec: '',
+200 silly mapToRegistry   spec: 'latest',
+200 silly mapToRegistry   type: 'tag' }
+201 silly mapToRegistry uri https://registry.npmjs.org/ogg-packet
+202 verbose addRemoteTarball https://registry.npmjs.org/ogg-packet/-/ogg-packet-1.0.0.tgz not in flight; adding
+203 verbose addRemoteTarball [ 'https://registry.npmjs.org/ogg-packet/-/ogg-packet-1.0.0.tgz',
+203 verbose addRemoteTarball   '45b885721ac8f7dd5cf22391d42106ae533ac678' ]
+204 verbose addTmpTarball C:\Users\Kieran\AppData\Local\Temp\npm-5644-41bca7d8\registry.npmjs.org\bindings\-\bindings-1.2.1.tgz not in flight; adding
+205 verbose addTmpTarball already have metadata; skipping unpack for bindings@1.2.1
+206 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+207 info retry fetch attempt 1 at 5:28:12 PM
+208 info attempt registry request try #1 at 5:28:12 PM
+209 http fetch GET https://registry.npmjs.org/ogg-packet/-/ogg-packet-1.0.0.tgz
+210 silly fetchAndShaCheck shasum d95bf721ec877e08db276ed3fc6eb78f9083ad46
+211 verbose addTmpTarball C:\Users\Kieran\AppData\Local\Temp\npm-5644-41bca7d8\registry.npmjs.org\nan\-\nan-2.7.0.tgz not in flight; adding
+212 verbose addTmpTarball already have metadata; skipping unpack for nan@2.7.0
+213 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+214 http fetch 200 https://registry.npmjs.org/ogg-packet/-/ogg-packet-1.0.0.tgz
+215 silly fetchAndShaCheck shasum 45b885721ac8f7dd5cf22391d42106ae533ac678
+216 silly cache afterAdd bindings@1.2.1
+217 verbose afterAdd C:\Users\Kieran\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json not in flight; writing
+218 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+219 verbose addTmpTarball C:\Users\Kieran\AppData\Local\Temp\npm-5644-41bca7d8\registry.npmjs.org\ogg-packet\-\ogg-packet-1.0.0.tgz not in flight; adding
+220 verbose addTmpTarball already have metadata; skipping unpack for ogg-packet@1.0.0
+221 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+222 verbose afterAdd C:\Users\Kieran\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json written
+223 silly cache afterAdd nan@2.7.0
+224 verbose afterAdd C:\Users\Kieran\AppData\Roaming\npm-cache\nan\2.7.0\package\package.json not in flight; writing
+225 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+226 verbose afterAdd C:\Users\Kieran\AppData\Roaming\npm-cache\nan\2.7.0\package\package.json written
+227 silly cache afterAdd ogg-packet@1.0.0
+228 verbose afterAdd C:\Users\Kieran\AppData\Roaming\npm-cache\ogg-packet\1.0.0\package\package.json not in flight; writing
+229 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+230 verbose afterAdd C:\Users\Kieran\AppData\Roaming\npm-cache\ogg-packet\1.0.0\package\package.json written
+231 silly fetchNamedPackageData ref-struct
+232 silly mapToRegistry name ref-struct
+233 silly mapToRegistry using default registry
+234 silly mapToRegistry registry https://registry.npmjs.org/
+235 silly mapToRegistry data Result {
+235 silly mapToRegistry   raw: 'ref-struct',
+235 silly mapToRegistry   scope: null,
+235 silly mapToRegistry   escapedName: 'ref-struct',
+235 silly mapToRegistry   name: 'ref-struct',
+235 silly mapToRegistry   rawSpec: '',
+235 silly mapToRegistry   spec: 'latest',
+235 silly mapToRegistry   type: 'tag' }
+236 silly mapToRegistry uri https://registry.npmjs.org/ref-struct
+237 verbose request uri https://registry.npmjs.org/ref-struct
+238 verbose request no auth needed
+239 info attempt registry request try #1 at 5:28:13 PM
+240 http request GET https://registry.npmjs.org/ref-struct
+241 http 200 https://registry.npmjs.org/ref-struct
+242 verbose headers { server: 'nginx/1.10.1',
+242 verbose headers   'content-type': 'application/json',
+242 verbose headers   'last-modified': 'Thu, 11 May 2017 10:03:18 GMT',
+242 verbose headers   etag: 'W/"591436e6-412b"',
+242 verbose headers   'content-encoding': 'gzip',
+242 verbose headers   'cache-control': 'max-age=300',
+242 verbose headers   'content-length': '3555',
+242 verbose headers   'accept-ranges': 'bytes',
+242 verbose headers   date: 'Sat, 09 Sep 2017 23:28:06 GMT',
+242 verbose headers   via: '1.1 varnish',
+242 verbose headers   age: '0',
+242 verbose headers   connection: 'keep-alive',
+242 verbose headers   'x-served-by': 'cache-ord1743-ORD',
+242 verbose headers   'x-cache': 'HIT',
+242 verbose headers   'x-cache-hits': '1',
+242 verbose headers   'x-timer': 'S1504999686.161378,VS0,VE63',
+242 verbose headers   vary: 'Accept-Encoding, Accept' }
+243 silly get cb [ 200,
+243 silly get   { server: 'nginx/1.10.1',
+243 silly get     'content-type': 'application/json',
+243 silly get     'last-modified': 'Thu, 11 May 2017 10:03:18 GMT',
+243 silly get     etag: 'W/"591436e6-412b"',
+243 silly get     'content-encoding': 'gzip',
+243 silly get     'cache-control': 'max-age=300',
+243 silly get     'content-length': '3555',
+243 silly get     'accept-ranges': 'bytes',
+243 silly get     date: 'Sat, 09 Sep 2017 23:28:06 GMT',
+243 silly get     via: '1.1 varnish',
+243 silly get     age: '0',
+243 silly get     connection: 'keep-alive',
+243 silly get     'x-served-by': 'cache-ord1743-ORD',
+243 silly get     'x-cache': 'HIT',
+243 silly get     'x-cache-hits': '1',
+243 silly get     'x-timer': 'S1504999686.161378,VS0,VE63',
+243 silly get     vary: 'Accept-Encoding, Accept' } ]
+244 verbose get saving ref-struct to C:\Users\Kieran\AppData\Roaming\npm-cache\registry.npmjs.org\ref-struct\.cache.json
+245 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+246 silly resolveWithNewModule ref-struct@1.1.0 checking installable status
+247 silly cache add args [ 'ref-struct@*', null ]
+248 verbose cache add spec ref-struct@*
+249 silly cache add parsed spec Result {
+249 silly cache add   raw: 'ref-struct@*',
+249 silly cache add   scope: null,
+249 silly cache add   escapedName: 'ref-struct',
+249 silly cache add   name: 'ref-struct',
+249 silly cache add   rawSpec: '*',
+249 silly cache add   spec: '*',
+249 silly cache add   type: 'range' }
+250 silly addNamed ref-struct@*
+251 verbose addNamed "*" is a valid semver range for ref-struct
+252 silly addNameRange { name: 'ref-struct', range: '*', hasData: false }
+253 silly mapToRegistry name ref-struct
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry https://registry.npmjs.org/
+256 silly mapToRegistry data Result {
+256 silly mapToRegistry   raw: 'ref-struct',
+256 silly mapToRegistry   scope: null,
+256 silly mapToRegistry   escapedName: 'ref-struct',
+256 silly mapToRegistry   name: 'ref-struct',
+256 silly mapToRegistry   rawSpec: '',
+256 silly mapToRegistry   spec: 'latest',
+256 silly mapToRegistry   type: 'tag' }
+257 silly mapToRegistry uri https://registry.npmjs.org/ref-struct
+258 verbose addNameRange registry:https://registry.npmjs.org/ref-struct not in flight; fetching
+259 verbose get https://registry.npmjs.org/ref-struct not expired, no request
+260 silly addNameRange number 2 { name: 'ref-struct', range: '*', hasData: true }
+261 silly addNameRange versions [ 'ref-struct',
+261 silly addNameRange   [ '0.0.1',
+261 silly addNameRange     '0.0.2',
+261 silly addNameRange     '0.0.3',
+261 silly addNameRange     '0.0.4',
+261 silly addNameRange     '0.0.5',
+261 silly addNameRange     '0.0.6',
+261 silly addNameRange     '0.0.7',
+261 silly addNameRange     '1.0.0',
+261 silly addNameRange     '1.0.1',
+261 silly addNameRange     '1.0.2',
+261 silly addNameRange     '1.1.0' ] ]
+262 silly addNamed ref-struct@1.1.0
+263 verbose addNamed "1.1.0" is a plain semver version for ref-struct
+264 silly mapToRegistry name ref-struct
+265 silly mapToRegistry using default registry
+266 silly mapToRegistry registry https://registry.npmjs.org/
+267 silly mapToRegistry data Result {
+267 silly mapToRegistry   raw: 'ref-struct',
+267 silly mapToRegistry   scope: null,
+267 silly mapToRegistry   escapedName: 'ref-struct',
+267 silly mapToRegistry   name: 'ref-struct',
+267 silly mapToRegistry   rawSpec: '',
+267 silly mapToRegistry   spec: 'latest',
+267 silly mapToRegistry   type: 'tag' }
+268 silly mapToRegistry uri https://registry.npmjs.org/ref-struct
+269 verbose addRemoteTarball https://registry.npmjs.org/ref-struct/-/ref-struct-1.1.0.tgz not in flight; adding
+270 verbose addRemoteTarball [ 'https://registry.npmjs.org/ref-struct/-/ref-struct-1.1.0.tgz',
+270 verbose addRemoteTarball   '5d5ee65ad41cefc3a5c5feb40587261e479edc13' ]
+271 info retry fetch attempt 1 at 5:28:13 PM
+272 info attempt registry request try #1 at 5:28:13 PM
+273 http fetch GET https://registry.npmjs.org/ref-struct/-/ref-struct-1.1.0.tgz
+274 http fetch 200 https://registry.npmjs.org/ref-struct/-/ref-struct-1.1.0.tgz
+275 silly fetchAndShaCheck shasum 5d5ee65ad41cefc3a5c5feb40587261e479edc13
+276 verbose addTmpTarball C:\Users\Kieran\AppData\Local\Temp\npm-5644-41bca7d8\registry.npmjs.org\ref-struct\-\ref-struct-1.1.0.tgz not in flight; adding
+277 verbose addTmpTarball already have metadata; skipping unpack for ref-struct@1.1.0
+278 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+279 silly cache afterAdd ref-struct@1.1.0
+280 verbose afterAdd C:\Users\Kieran\AppData\Roaming\npm-cache\ref-struct\1.1.0\package\package.json not in flight; writing
+281 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+282 verbose afterAdd C:\Users\Kieran\AppData\Roaming\npm-cache\ref-struct\1.1.0\package\package.json written
+283 silly fetchNamedPackageData ref
+284 silly mapToRegistry name ref
+285 silly mapToRegistry using default registry
+286 silly mapToRegistry registry https://registry.npmjs.org/
+287 silly mapToRegistry data Result {
+287 silly mapToRegistry   raw: 'ref',
+287 silly mapToRegistry   scope: null,
+287 silly mapToRegistry   escapedName: 'ref',
+287 silly mapToRegistry   name: 'ref',
+287 silly mapToRegistry   rawSpec: '',
+287 silly mapToRegistry   spec: 'latest',
+287 silly mapToRegistry   type: 'tag' }
+288 silly mapToRegistry uri https://registry.npmjs.org/ref
+289 verbose request uri https://registry.npmjs.org/ref
+290 verbose request no auth needed
+291 info attempt registry request try #1 at 5:28:14 PM
+292 http request GET https://registry.npmjs.org/ref
+293 http 200 https://registry.npmjs.org/ref
+294 verbose headers { server: 'nginx/1.10.1',
+294 verbose headers   'content-type': 'application/json',
+294 verbose headers   'last-modified': 'Tue, 29 Aug 2017 16:36:18 GMT',
+294 verbose headers   etag: 'W/"59a59802-f8c3"',
+294 verbose headers   'content-encoding': 'gzip',
+294 verbose headers   'cache-control': 'max-age=300',
+294 verbose headers   'content-length': '7867',
+294 verbose headers   'accept-ranges': 'bytes',
+294 verbose headers   date: 'Sat, 09 Sep 2017 23:28:07 GMT',
+294 verbose headers   via: '1.1 varnish',
+294 verbose headers   age: '0',
+294 verbose headers   connection: 'keep-alive',
+294 verbose headers   'x-served-by': 'cache-ord1743-ORD',
+294 verbose headers   'x-cache': 'HIT',
+294 verbose headers   'x-cache-hits': '1',
+294 verbose headers   'x-timer': 'S1504999687.166018,VS0,VE19',
+294 verbose headers   vary: 'Accept-Encoding, Accept' }
+295 silly get cb [ 200,
+295 silly get   { server: 'nginx/1.10.1',
+295 silly get     'content-type': 'application/json',
+295 silly get     'last-modified': 'Tue, 29 Aug 2017 16:36:18 GMT',
+295 silly get     etag: 'W/"59a59802-f8c3"',
+295 silly get     'content-encoding': 'gzip',
+295 silly get     'cache-control': 'max-age=300',
+295 silly get     'content-length': '7867',
+295 silly get     'accept-ranges': 'bytes',
+295 silly get     date: 'Sat, 09 Sep 2017 23:28:07 GMT',
+295 silly get     via: '1.1 varnish',
+295 silly get     age: '0',
+295 silly get     connection: 'keep-alive',
+295 silly get     'x-served-by': 'cache-ord1743-ORD',
+295 silly get     'x-cache': 'HIT',
+295 silly get     'x-cache-hits': '1',
+295 silly get     'x-timer': 'S1504999687.166018,VS0,VE19',
+295 silly get     vary: 'Accept-Encoding, Accept' } ]
+296 verbose get saving ref to C:\Users\Kieran\AppData\Roaming\npm-cache\registry.npmjs.org\ref\.cache.json
+297 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+298 silly resolveWithNewModule ref@1.3.5 checking installable status
+299 silly cache add args [ 'ref@1', null ]
+300 verbose cache add spec ref@1
+301 silly cache add parsed spec Result {
+301 silly cache add   raw: 'ref@1',
+301 silly cache add   scope: null,
+301 silly cache add   escapedName: 'ref',
+301 silly cache add   name: 'ref',
+301 silly cache add   rawSpec: '1',
+301 silly cache add   spec: '>=1.0.0 <2.0.0',
+301 silly cache add   type: 'range' }
+302 silly addNamed ref@>=1.0.0 <2.0.0
+303 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for ref
+304 silly addNameRange { name: 'ref', range: '>=1.0.0 <2.0.0', hasData: false }
+305 silly mapToRegistry name ref
+306 silly mapToRegistry using default registry
+307 silly mapToRegistry registry https://registry.npmjs.org/
+308 silly mapToRegistry data Result {
+308 silly mapToRegistry   raw: 'ref',
+308 silly mapToRegistry   scope: null,
+308 silly mapToRegistry   escapedName: 'ref',
+308 silly mapToRegistry   name: 'ref',
+308 silly mapToRegistry   rawSpec: '',
+308 silly mapToRegistry   spec: 'latest',
+308 silly mapToRegistry   type: 'tag' }
+309 silly mapToRegistry uri https://registry.npmjs.org/ref
+310 verbose addNameRange registry:https://registry.npmjs.org/ref not in flight; fetching
+311 verbose get https://registry.npmjs.org/ref not expired, no request
+312 silly addNameRange number 2 { name: 'ref', range: '>=1.0.0 <2.0.0', hasData: true }
+313 silly addNameRange versions [ 'ref',
+313 silly addNameRange   [ '0.0.1',
+313 silly addNameRange     '0.0.2',
+313 silly addNameRange     '0.0.3',
+313 silly addNameRange     '0.0.4',
+313 silly addNameRange     '0.0.5',
+313 silly addNameRange     '0.0.6',
+313 silly addNameRange     '0.0.7',
+313 silly addNameRange     '0.0.8',
+313 silly addNameRange     '0.0.9',
+313 silly addNameRange     '0.0.10',
+313 silly addNameRange     '0.0.11',
+313 silly addNameRange     '0.0.12',
+313 silly addNameRange     '0.0.13',
+313 silly addNameRange     '0.0.14',
+313 silly addNameRange     '0.0.15',
+313 silly addNameRange     '0.0.16',
+313 silly addNameRange     '0.0.17',
+313 silly addNameRange     '0.0.18',
+313 silly addNameRange     '0.0.19',
+313 silly addNameRange     '0.0.20',
+313 silly addNameRange     '0.1.0',
+313 silly addNameRange     '0.1.1',
+313 silly addNameRange     '0.1.2',
+313 silly addNameRange     '0.1.3',
+313 silly addNameRange     '0.2.0',
+313 silly addNameRange     '0.2.1',
+313 silly addNameRange     '0.2.2',
+313 silly addNameRange     '0.2.3',
+313 silly addNameRange     '0.3.0',
+313 silly addNameRange     '0.3.1',
+313 silly addNameRange     '0.3.2',
+313 silly addNameRange     '0.3.3',
+313 silly addNameRange     '0.3.4',
+313 silly addNameRange     '0.3.5',
+313 silly addNameRange     '1.0.0',
+313 silly addNameRange     '1.0.1',
+313 silly addNameRange     '1.0.2',
+313 silly addNameRange     '1.1.0',
+313 silly addNameRange     '1.1.1',
+313 silly addNameRange     '1.1.2',
+313 silly addNameRange     '1.1.3',
+313 silly addNameRange     '1.2.0',
+313 silly addNameRange     '1.3.0',
+313 silly addNameRange     '1.3.1',
+313 silly addNameRange     '1.3.2',
+313 silly addNameRange     '1.3.3',
+313 silly addNameRange     '1.3.4',
+313 silly addNameRange     '1.3.5' ] ]
+314 silly addNamed ref@1.3.5
+315 verbose addNamed "1.3.5" is a plain semver version for ref
+316 silly mapToRegistry name ref
+317 silly mapToRegistry using default registry
+318 silly mapToRegistry registry https://registry.npmjs.org/
+319 silly mapToRegistry data Result {
+319 silly mapToRegistry   raw: 'ref',
+319 silly mapToRegistry   scope: null,
+319 silly mapToRegistry   escapedName: 'ref',
+319 silly mapToRegistry   name: 'ref',
+319 silly mapToRegistry   rawSpec: '',
+319 silly mapToRegistry   spec: 'latest',
+319 silly mapToRegistry   type: 'tag' }
+320 silly mapToRegistry uri https://registry.npmjs.org/ref
+321 verbose addRemoteTarball https://registry.npmjs.org/ref/-/ref-1.3.5.tgz not in flight; adding
+322 verbose addRemoteTarball [ 'https://registry.npmjs.org/ref/-/ref-1.3.5.tgz',
+322 verbose addRemoteTarball   '0e33f080cdb94a3d95312b2b3b1fd0f82044ca0f' ]
+323 info retry fetch attempt 1 at 5:28:14 PM
+324 info attempt registry request try #1 at 5:28:14 PM
+325 http fetch GET https://registry.npmjs.org/ref/-/ref-1.3.5.tgz
+326 http fetch 200 https://registry.npmjs.org/ref/-/ref-1.3.5.tgz
+327 silly fetchAndShaCheck shasum 0e33f080cdb94a3d95312b2b3b1fd0f82044ca0f
+328 verbose addTmpTarball C:\Users\Kieran\AppData\Local\Temp\npm-5644-41bca7d8\registry.npmjs.org\ref\-\ref-1.3.5.tgz not in flight; adding
+329 verbose addTmpTarball already have metadata; skipping unpack for ref@1.3.5
+330 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+331 silly cache afterAdd ref@1.3.5
+332 verbose afterAdd C:\Users\Kieran\AppData\Roaming\npm-cache\ref\1.3.5\package\package.json not in flight; writing
+333 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+334 verbose afterAdd C:\Users\Kieran\AppData\Roaming\npm-cache\ref\1.3.5\package\package.json written
+335 silly loadAllDepsIntoIdealTree Finishing
+336 silly loadIdealTree Finishing
+337 silly currentTree uberbot@1.0.0
+337 silly currentTree +-- ajv@4.11.8
+337 silly currentTree +-- asn1@0.2.3
+337 silly currentTree +-- assert-plus@0.2.0
+337 silly currentTree +-- asynckit@0.4.0
+337 silly currentTree +-- aws-sign2@0.6.0
+337 silly currentTree +-- aws4@1.6.0
+337 silly currentTree +-- balanced-match@1.0.0
+337 silly currentTree +-- bcrypt-pbkdf@1.0.1
+337 silly currentTree | `-- tweetnacl@0.14.5
+337 silly currentTree +-- block-stream@0.0.9
+337 silly currentTree +-- bluebird@2.11.0
+337 silly currentTree +-- boom@2.10.1
+337 silly currentTree +-- brace-expansion@1.1.8
+337 silly currentTree +-- caseless@0.12.0
+337 silly currentTree +-- co@4.6.0
+337 silly currentTree +-- combined-stream@1.0.5
+337 silly currentTree +-- commander@2.11.0
+337 silly currentTree +-- component-emitter@1.2.1
+337 silly currentTree +-- concat-map@0.0.1
+337 silly currentTree +-- cookiejar@2.1.1
+337 silly currentTree +-- core-util-is@1.0.2
+337 silly currentTree +-- cryptiles@2.0.5
+337 silly currentTree +-- dashdash@1.14.1
+337 silly currentTree | `-- assert-plus@1.0.0
+337 silly currentTree +-- debug@2.6.8
+337 silly currentTree +-- delayed-stream@1.0.0
+337 silly currentTree +-- discord.js-music-v11@1.3.4
+337 silly currentTree | `-- ytdl-core@0.9.2
+337 silly currentTree +-- discord.js-music@1.0.3
+337 silly currentTree +-- discord.js@11.2.1
+337 silly currentTree +-- ecc-jsbn@0.1.1
+337 silly currentTree +-- extend@3.0.1
+337 silly currentTree +-- extsprintf@1.3.0
+337 silly currentTree +-- ffmpeg-binaries@3.2.2-3
+337 silly currentTree +-- forever-agent@0.6.1
+337 silly currentTree +-- form-data@2.1.4
+337 silly currentTree +-- formidable@1.1.1
+337 silly currentTree +-- fs.realpath@1.0.0
+337 silly currentTree +-- fstream@1.0.11
+337 silly currentTree +-- getpass@0.1.7
+337 silly currentTree | `-- assert-plus@1.0.0
+337 silly currentTree +-- glob@7.1.2
+337 silly currentTree +-- graceful-fs@4.1.11
+337 silly currentTree +-- har-schema@1.0.5
+337 silly currentTree +-- har-validator@4.2.1
+337 silly currentTree +-- hashish@0.0.4
+337 silly currentTree +-- hawk@3.1.3
+337 silly currentTree +-- hoek@2.16.3
+337 silly currentTree +-- html-entities@1.2.1
+337 silly currentTree +-- http-signature@1.1.1
+337 silly currentTree +-- inflight@1.0.6
+337 silly currentTree +-- inherits@2.0.3
+337 silly currentTree +-- is-typedarray@1.0.0
+337 silly currentTree +-- isarray@1.0.0
+337 silly currentTree +-- isstream@0.1.2
+337 silly currentTree +-- jsbn@0.1.1
+337 silly currentTree +-- json-schema@0.2.3
+337 silly currentTree +-- json-stable-stringify@1.0.1
+337 silly currentTree +-- json-stringify-safe@5.0.1
+337 silly currentTree +-- jsonify@0.0.0
+337 silly currentTree +-- jsprim@1.4.1
+337 silly currentTree | `-- assert-plus@1.0.0
+337 silly currentTree +-- long@3.2.0
+337 silly currentTree +-- m3u8stream@0.1.3
+337 silly currentTree +-- methods@1.1.2
+337 silly currentTree +-- mime-db@1.30.0
+337 silly currentTree +-- mime-types@2.1.17
+337 silly currentTree +-- mime@1.4.0
+337 silly currentTree +-- miniget@1.0.1
+337 silly currentTree +-- minimatch@3.0.4
+337 silly currentTree +-- minimist@0.0.8
+337 silly currentTree +-- mkdirp@0.5.1
+337 silly currentTree +-- mout@0.11.1
+337 silly currentTree +-- ms@2.0.0
+337 silly currentTree +-- oauth-sign@0.8.2
+337 silly currentTree +-- once@1.4.0
+337 silly currentTree +-- opusscript@0.0.3
+337 silly currentTree +-- path-is-absolute@1.0.1
+337 silly currentTree +-- performance-now@0.2.0
+337 silly currentTree +-- prism-media@0.0.1
+337 silly currentTree +-- process-nextick-args@1.0.7
+337 silly currentTree +-- punycode@1.4.1
+337 silly currentTree +-- qs@6.4.0
+337 silly currentTree +-- readable-stream@2.3.3
+337 silly currentTree +-- request@2.81.0
+337 silly currentTree +-- rimraf@2.6.1
+337 silly currentTree +-- safe-buffer@5.1.1
+337 silly currentTree +-- sax@1.2.4
+337 silly currentTree +-- snekfetch@3.3.0
+337 silly currentTree +-- sntp@1.0.9
+337 silly currentTree +-- sshpk@1.13.1
+337 silly currentTree | +-- assert-plus@1.0.0
+337 silly currentTree | `-- tweetnacl@0.14.5
+337 silly currentTree +-- streamify@0.2.9
+337 silly currentTree +-- string_decoder@1.0.3
+337 silly currentTree +-- stringstream@0.0.5
+337 silly currentTree +-- superagent@3.6.0
+337 silly currentTree +-- tar.gz@1.0.5
+337 silly currentTree +-- tar@2.2.1
+337 silly currentTree +-- tough-cookie@2.3.2
+337 silly currentTree +-- traverse@0.6.6
+337 silly currentTree +-- tunnel-agent@0.6.0
+337 silly currentTree +-- tweetnacl@1.0.0
+337 silly currentTree +-- ultron@1.1.0
+337 silly currentTree +-- urban-dictionary@1.0.6
+337 silly currentTree +-- util-deprecate@1.0.2
+337 silly currentTree +-- uuid@3.1.0
+337 silly currentTree +-- verror@1.10.0
+337 silly currentTree | `-- assert-plus@1.0.0
+337 silly currentTree +-- wrappy@1.0.2
+337 silly currentTree +-- ws@3.1.0
+337 silly currentTree +-- youtube-dl@1.11.1
+337 silly currentTree `-- ytdl-core@0.17.1
+338 silly idealTree uberbot@1.0.0
+338 silly idealTree +-- ajv@4.11.8
+338 silly idealTree +-- asn1@0.2.3
+338 silly idealTree +-- assert-plus@0.2.0
+338 silly idealTree +-- asynckit@0.4.0
+338 silly idealTree +-- aws-sign2@0.6.0
+338 silly idealTree +-- aws4@1.6.0
+338 silly idealTree +-- balanced-match@1.0.0
+338 silly idealTree +-- bcrypt-pbkdf@1.0.1
+338 silly idealTree | `-- tweetnacl@0.14.5
+338 silly idealTree +-- bindings@1.2.1
+338 silly idealTree +-- block-stream@0.0.9
+338 silly idealTree +-- bluebird@2.11.0
+338 silly idealTree +-- boom@2.10.1
+338 silly idealTree +-- brace-expansion@1.1.8
+338 silly idealTree +-- caseless@0.12.0
+338 silly idealTree +-- co@4.6.0
+338 silly idealTree +-- combined-stream@1.0.5
+338 silly idealTree +-- commander@2.11.0
+338 silly idealTree +-- component-emitter@1.2.1
+338 silly idealTree +-- concat-map@0.0.1
+338 silly idealTree +-- cookiejar@2.1.1
+338 silly idealTree +-- core-util-is@1.0.2
+338 silly idealTree +-- cryptiles@2.0.5
+338 silly idealTree +-- dashdash@1.14.1
+338 silly idealTree | `-- assert-plus@1.0.0
+338 silly idealTree +-- debug@2.6.8
+338 silly idealTree +-- delayed-stream@1.0.0
+338 silly idealTree +-- discord.js-music-v11@1.3.4
+338 silly idealTree | `-- ytdl-core@0.9.2
+338 silly idealTree +-- discord.js-music@1.0.3
+338 silly idealTree +-- discord.js@11.2.1
+338 silly idealTree +-- ecc-jsbn@0.1.1
+338 silly idealTree +-- extend@3.0.1
+338 silly idealTree +-- extsprintf@1.3.0
+338 silly idealTree +-- ffmpeg-binaries@3.2.2-3
+338 silly idealTree +-- forever-agent@0.6.1
+338 silly idealTree +-- form-data@2.1.4
+338 silly idealTree +-- formidable@1.1.1
+338 silly idealTree +-- fs.realpath@1.0.0
+338 silly idealTree +-- fstream@1.0.11
+338 silly idealTree +-- getpass@0.1.7
+338 silly idealTree | `-- assert-plus@1.0.0
+338 silly idealTree +-- glob@7.1.2
+338 silly idealTree +-- graceful-fs@4.1.11
+338 silly idealTree +-- har-schema@1.0.5
+338 silly idealTree +-- har-validator@4.2.1
+338 silly idealTree +-- hashish@0.0.4
+338 silly idealTree +-- hawk@3.1.3
+338 silly idealTree +-- hoek@2.16.3
+338 silly idealTree +-- html-entities@1.2.1
+338 silly idealTree +-- http-signature@1.1.1
+338 silly idealTree +-- inflight@1.0.6
+338 silly idealTree +-- inherits@2.0.3
+338 silly idealTree +-- is-typedarray@1.0.0
+338 silly idealTree +-- isarray@1.0.0
+338 silly idealTree +-- isstream@0.1.2
+338 silly idealTree +-- jsbn@0.1.1
+338 silly idealTree +-- json-schema@0.2.3
+338 silly idealTree +-- json-stable-stringify@1.0.1
+338 silly idealTree +-- json-stringify-safe@5.0.1
+338 silly idealTree +-- jsonify@0.0.0
+338 silly idealTree +-- jsprim@1.4.1
+338 silly idealTree | `-- assert-plus@1.0.0
+338 silly idealTree +-- long@3.2.0
+338 silly idealTree +-- m3u8stream@0.1.3
+338 silly idealTree +-- methods@1.1.2
+338 silly idealTree +-- mime-db@1.30.0
+338 silly idealTree +-- mime-types@2.1.17
+338 silly idealTree +-- mime@1.4.0
+338 silly idealTree +-- miniget@1.0.1
+338 silly idealTree +-- minimatch@3.0.4
+338 silly idealTree +-- minimist@0.0.8
+338 silly idealTree +-- mkdirp@0.5.1
+338 silly idealTree +-- mout@0.11.1
+338 silly idealTree +-- ms@2.0.0
+338 silly idealTree +-- nan@2.7.0
+338 silly idealTree +-- node-opus@0.2.7
+338 silly idealTree +-- oauth-sign@0.8.2
+338 silly idealTree +-- ogg-packet@1.0.0
+338 silly idealTree +-- once@1.4.0
+338 silly idealTree +-- opusscript@0.0.3
+338 silly idealTree +-- path-is-absolute@1.0.1
+338 silly idealTree +-- performance-now@0.2.0
+338 silly idealTree +-- prism-media@0.0.1
+338 silly idealTree +-- process-nextick-args@1.0.7
+338 silly idealTree +-- punycode@1.4.1
+338 silly idealTree +-- qs@6.4.0
+338 silly idealTree +-- readable-stream@2.3.3
+338 silly idealTree +-- ref-struct@1.1.0
+338 silly idealTree +-- ref@1.3.5
+338 silly idealTree +-- request@2.81.0
+338 silly idealTree +-- rimraf@2.6.1
+338 silly idealTree +-- safe-buffer@5.1.1
+338 silly idealTree +-- sax@1.2.4
+338 silly idealTree +-- snekfetch@3.3.0
+338 silly idealTree +-- sntp@1.0.9
+338 silly idealTree +-- sshpk@1.13.1
+338 silly idealTree | +-- assert-plus@1.0.0
+338 silly idealTree | `-- tweetnacl@0.14.5
+338 silly idealTree +-- streamify@0.2.9
+338 silly idealTree +-- string_decoder@1.0.3
+338 silly idealTree +-- stringstream@0.0.5
+338 silly idealTree +-- superagent@3.6.0
+338 silly idealTree +-- tar.gz@1.0.5
+338 silly idealTree +-- tar@2.2.1
+338 silly idealTree +-- tough-cookie@2.3.2
+338 silly idealTree +-- traverse@0.6.6
+338 silly idealTree +-- tunnel-agent@0.6.0
+338 silly idealTree +-- tweetnacl@1.0.0
+338 silly idealTree +-- ultron@1.1.0
+338 silly idealTree +-- urban-dictionary@1.0.6
+338 silly idealTree +-- util-deprecate@1.0.2
+338 silly idealTree +-- uuid@3.1.0
+338 silly idealTree +-- verror@1.10.0
+338 silly idealTree | `-- assert-plus@1.0.0
+338 silly idealTree +-- wrappy@1.0.2
+338 silly idealTree +-- ws@3.1.0
+338 silly idealTree +-- youtube-dl@1.11.1
+338 silly idealTree `-- ytdl-core@0.17.1
+339 silly generateActionsToTake Starting
+340 silly install generateActionsToTake
+341 silly generateActionsToTake Finishing
+342 silly diffTrees action count 6
+343 silly diffTrees add bindings@1.2.1
+344 silly diffTrees add nan@2.7.0
+345 silly diffTrees add ref@1.3.5
+346 silly diffTrees add ref-struct@1.1.0
+347 silly diffTrees add ogg-packet@1.0.0
+348 silly diffTrees add node-opus@0.2.7
+349 silly decomposeActions action count 48
+350 silly decomposeActions fetch bindings@1.2.1
+351 silly decomposeActions extract bindings@1.2.1
+352 silly decomposeActions test bindings@1.2.1
+353 silly decomposeActions preinstall bindings@1.2.1
+354 silly decomposeActions build bindings@1.2.1
+355 silly decomposeActions install bindings@1.2.1
+356 silly decomposeActions postinstall bindings@1.2.1
+357 silly decomposeActions finalize bindings@1.2.1
+358 silly decomposeActions fetch nan@2.7.0
+359 silly decomposeActions extract nan@2.7.0
+360 silly decomposeActions test nan@2.7.0
+361 silly decomposeActions preinstall nan@2.7.0
+362 silly decomposeActions build nan@2.7.0
+363 silly decomposeActions install nan@2.7.0
+364 silly decomposeActions postinstall nan@2.7.0
+365 silly decomposeActions finalize nan@2.7.0
+366 silly decomposeActions fetch ref@1.3.5
+367 silly decomposeActions extract ref@1.3.5
+368 silly decomposeActions test ref@1.3.5
+369 silly decomposeActions preinstall ref@1.3.5
+370 silly decomposeActions build ref@1.3.5
+371 silly decomposeActions install ref@1.3.5
+372 silly decomposeActions postinstall ref@1.3.5
+373 silly decomposeActions finalize ref@1.3.5
+374 silly decomposeActions fetch ref-struct@1.1.0
+375 silly decomposeActions extract ref-struct@1.1.0
+376 silly decomposeActions test ref-struct@1.1.0
+377 silly decomposeActions preinstall ref-struct@1.1.0
+378 silly decomposeActions build ref-struct@1.1.0
+379 silly decomposeActions install ref-struct@1.1.0
+380 silly decomposeActions postinstall ref-struct@1.1.0
+381 silly decomposeActions finalize ref-struct@1.1.0
+382 silly decomposeActions fetch ogg-packet@1.0.0
+383 silly decomposeActions extract ogg-packet@1.0.0
+384 silly decomposeActions test ogg-packet@1.0.0
+385 silly decomposeActions preinstall ogg-packet@1.0.0
+386 silly decomposeActions build ogg-packet@1.0.0
+387 silly decomposeActions install ogg-packet@1.0.0
+388 silly decomposeActions postinstall ogg-packet@1.0.0
+389 silly decomposeActions finalize ogg-packet@1.0.0
+390 silly decomposeActions fetch node-opus@0.2.7
+391 silly decomposeActions extract node-opus@0.2.7
+392 silly decomposeActions test node-opus@0.2.7
+393 silly decomposeActions preinstall node-opus@0.2.7
+394 silly decomposeActions build node-opus@0.2.7
+395 silly decomposeActions install node-opus@0.2.7
+396 silly decomposeActions postinstall node-opus@0.2.7
+397 silly decomposeActions finalize node-opus@0.2.7
+398 silly runTopLevelLifecycles Starting
+399 silly executeActions Starting
+400 silly install executeActions
+401 silly doSerial global-install 0
+402 silly doParallel fetch 6
+403 verbose correctMkdir C:\Users\Kieran\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+404 verbose lock using C:\Users\Kieran\AppData\Roaming\npm-cache\_locks\staging-b13309ceddeaaed2.lock for C:\Users\Kieran\Desktop\UberBot\node_modules\.staging
+405 silly doParallel extract 6
+406 silly extract bindings@1.2.1
+407 silly extract nan@2.7.0
+408 silly extract ref@1.3.5
+409 silly extract ref-struct@1.1.0
+410 silly extract ogg-packet@1.0.0
+411 silly extract node-opus@0.2.7
+412 verbose unbuild node_modules\.staging\ogg-packet-d1072e8d
+413 verbose unbuild node_modules\.staging\ref-struct-dd6e99d3
+414 verbose unbuild node_modules\.staging\bindings-40f6398d
+415 verbose unbuild node_modules\.staging\ref-387bb73a
+416 verbose unbuild node_modules\.staging\node-opus-f2ff6cb7
+417 verbose unbuild node_modules\.staging\nan-9958a85a
+418 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ogg-packet-d1072e8d is being purged from base C:\Users\Kieran\Desktop\UberBot
+419 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ogg-packet-d1072e8d
+420 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ref-struct-dd6e99d3 is being purged from base C:\Users\Kieran\Desktop\UberBot
+421 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ref-struct-dd6e99d3
+422 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\bindings-40f6398d is being purged from base C:\Users\Kieran\Desktop\UberBot
+423 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\bindings-40f6398d
+424 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ref-387bb73a is being purged from base C:\Users\Kieran\Desktop\UberBot
+425 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ref-387bb73a
+426 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\node-opus-f2ff6cb7 is being purged from base C:\Users\Kieran\Desktop\UberBot
+427 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\node-opus-f2ff6cb7
+428 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\nan-9958a85a is being purged from base C:\Users\Kieran\Desktop\UberBot
+429 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\nan-9958a85a
+430 verbose tar unpack C:\Users\Kieran\AppData\Roaming\npm-cache\ogg-packet\1.0.0\package.tgz
+431 verbose tar unpacking to C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ogg-packet-d1072e8d
+432 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ogg-packet-d1072e8d is being purged
+433 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ogg-packet-d1072e8d
+434 verbose tar unpack C:\Users\Kieran\AppData\Roaming\npm-cache\ref-struct\1.1.0\package.tgz
+435 verbose tar unpacking to C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ref-struct-dd6e99d3
+436 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ref-struct-dd6e99d3 is being purged
+437 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ref-struct-dd6e99d3
+438 verbose tar unpack C:\Users\Kieran\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
+439 verbose tar unpacking to C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\bindings-40f6398d
+440 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\bindings-40f6398d is being purged
+441 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\bindings-40f6398d
+442 verbose tar unpack C:\Users\Kieran\AppData\Roaming\npm-cache\ref\1.3.5\package.tgz
+443 verbose tar unpacking to C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ref-387bb73a
+444 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ref-387bb73a is being purged
+445 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ref-387bb73a
+446 verbose tar unpack C:\Users\Kieran\AppData\Roaming\npm-cache\node-opus\0.2.7\package.tgz
+447 verbose tar unpacking to C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\node-opus-f2ff6cb7
+448 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\node-opus-f2ff6cb7 is being purged
+449 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\node-opus-f2ff6cb7
+450 verbose tar unpack C:\Users\Kieran\AppData\Roaming\npm-cache\nan\2.7.0\package.tgz
+451 verbose tar unpacking to C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\nan-9958a85a
+452 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\nan-9958a85a is being purged
+453 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\nan-9958a85a
+454 silly gunzTarPerm modes [ '777', '666' ]
+455 silly gunzTarPerm modes [ '777', '666' ]
+456 silly gunzTarPerm modes [ '777', '666' ]
+457 silly gunzTarPerm modes [ '777', '666' ]
+458 silly gunzTarPerm modes [ '777', '666' ]
+459 silly gunzTarPerm modes [ '777', '666' ]
+460 silly gunzTarPerm extractEntry package.json
+461 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+462 silly gunzTarPerm extractEntry package.json
+463 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+464 silly gunzTarPerm extractEntry package.json
+465 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+466 silly gunzTarPerm extractEntry package.json
+467 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+468 silly gunzTarPerm extractEntry package.json
+469 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+470 silly gunzTarPerm extractEntry package.json
+471 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+472 silly gunzTarPerm extractEntry .npmignore
+473 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+474 silly gunzTarPerm extractEntry README.md
+475 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+476 silly gunzTarPerm extractEntry README.md
+477 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+478 silly gunzTarPerm extractEntry bindings.js
+479 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+480 silly gunzTarPerm extractEntry .npmignore
+481 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+482 silly gunzTarPerm extractEntry README.md
+483 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+484 silly gunzTarPerm extractEntry .npmignore
+485 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+486 silly gunzTarPerm extractEntry README.md
+487 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+488 silly gunzTarPerm extractEntry README.md
+489 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+490 silly gunzTarPerm extractEntry .npmignore
+491 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+492 silly gunzTarPerm extractEntry README.md
+493 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+494 silly gunzTarPerm extractEntry include_dirs.js
+495 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+496 silly gunzTarPerm extractEntry index.js
+497 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+498 silly gunzTarPerm extractEntry LICENSE
+499 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+500 silly gunzTarPerm extractEntry index.js
+501 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+502 silly gunzTarPerm extractEntry .jshintrc
+503 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+504 silly gunzTarPerm extractEntry .travis.yml
+505 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+506 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+507 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+508 silly gunzTarPerm extractEntry LICENSE.md
+509 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+510 silly gunzTarPerm extractEntry doc/new.md
+511 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+512 silly gunzTarPerm extractEntry appveyor.yml
+513 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+514 silly gunzTarPerm extractEntry binding.gyp
+515 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+516 silly gunzTarPerm extractEntry doc/asyncworker.md
+517 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+518 silly gunzTarPerm extractEntry History.md
+519 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+520 silly gunzTarPerm extractEntry appveyor.yml
+521 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+522 silly gunzTarPerm extractEntry .travis.yml
+523 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+524 silly gunzTarPerm extractEntry docs/compile.js
+525 silly gunzTarPerm modified mode [ 'docs/compile.js', 420, 438 ]
+526 silly gunzTarPerm extractEntry coverage/coverage.json
+527 silly gunzTarPerm modified mode [ 'coverage/coverage.json', 436, 438 ]
+528 silly gunzTarPerm extractEntry coverage/lcov-report/prettify.js
+529 silly gunzTarPerm modified mode [ 'coverage/lcov-report/prettify.js', 436, 438 ]
+530 silly gunzTarPerm extractEntry doc/callback.md
+531 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+532 silly gunzTarPerm extractEntry doc/converters.md
+533 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+534 silly gunzTarPerm extractEntry docs/gh-pages.sh
+535 silly gunzTarPerm modified mode [ 'docs/gh-pages.sh', 493, 511 ]
+536 silly gunzTarPerm extractEntry coverage/lcov-report/sorter.js
+537 silly gunzTarPerm modified mode [ 'coverage/lcov-report/sorter.js', 436, 438 ]
+538 silly gunzTarPerm extractEntry coverage/lcov-report/base.css
+539 silly gunzTarPerm modified mode [ 'coverage/lcov-report/base.css', 436, 438 ]
+540 silly gunzTarPerm extractEntry lib/struct.js
+541 silly gunzTarPerm modified mode [ 'lib/struct.js', 420, 438 ]
+542 silly gunzTarPerm extractEntry doc/errors.md
+543 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+544 silly gunzTarPerm extractEntry doc/json.md
+545 silly gunzTarPerm modified mode [ 'doc/json.md', 436, 438 ]
+546 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-114x114.png
+547 silly gunzTarPerm modified mode [ 'docs/images/apple-touch-icon-114x114.png', 420, 438 ]
+548 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-72x72.png
+549 silly gunzTarPerm modified mode [ 'docs/images/apple-touch-icon-72x72.png', 420, 438 ]
+550 silly gunzTarPerm extractEntry coverage/lcov-report/index.html
+551 silly gunzTarPerm modified mode [ 'coverage/lcov-report/index.html', 436, 438 ]
+552 silly gunzTarPerm extractEntry coverage/lcov-report/node-opus/index.html
+553 silly gunzTarPerm modified mode [ 'coverage/lcov-report/node-opus/index.html', 436, 438 ]
+554 silly gunzTarPerm extractEntry doc/maybe_types.md
+555 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+556 silly gunzTarPerm extractEntry doc/methods.md
+557 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+558 silly gunzTarPerm extractEntry docs/images/apple-touch-icon.png
+559 silly gunzTarPerm modified mode [ 'docs/images/apple-touch-icon.png', 420, 438 ]
+560 silly gunzTarPerm extractEntry docs/images/favicon.ico
+561 silly gunzTarPerm modified mode [ 'docs/images/favicon.ico', 420, 438 ]
+562 silly gunzTarPerm extractEntry coverage/lcov-report/node-opus/index.js.html
+563 silly gunzTarPerm modified mode [ 'coverage/lcov-report/node-opus/index.js.html', 436, 438 ]
+564 silly gunzTarPerm extractEntry coverage/lcov-report/node-opus/lib/Decoder.js.html
+565 silly gunzTarPerm modified mode [ 'coverage/lcov-report/node-opus/lib/Decoder.js.html',
+565 silly gunzTarPerm   436,
+565 silly gunzTarPerm   438 ]
+566 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\bindings-40f6398d\node_modules is being purged
+567 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\bindings-40f6398d\node_modules
+568 silly gunzTarPerm extractEntry doc/buffers.md
+569 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+570 silly gunzTarPerm extractEntry doc/node_misc.md
+571 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+572 silly gunzTarPerm extractEntry docs/images/ref.pxm
+573 silly gunzTarPerm modified mode [ 'docs/images/ref.pxm', 420, 438 ]
+574 silly gunzTarPerm extractEntry docs/index.jade
+575 silly gunzTarPerm modified mode [ 'docs/index.jade', 420, 438 ]
+576 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ogg-packet-d1072e8d\node_modules is being purged
+577 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ogg-packet-d1072e8d\node_modules
+578 silly gunzTarPerm extractEntry coverage/lcov-report/node-opus/lib/Encoder.js.html
+579 silly gunzTarPerm modified mode [ 'coverage/lcov-report/node-opus/lib/Encoder.js.html',
+579 silly gunzTarPerm   436,
+579 silly gunzTarPerm   438 ]
+580 silly gunzTarPerm extractEntry coverage/lcov-report/node-opus/lib/OpusEncoder.js.html
+581 silly gunzTarPerm modified mode [ 'coverage/lcov-report/node-opus/lib/OpusEncoder.js.html',
+581 silly gunzTarPerm   436,
+581 silly gunzTarPerm   438 ]
+582 silly gunzTarPerm extractEntry coverage/lcov-report/node-opus/lib/index.html
+583 silly gunzTarPerm modified mode [ 'coverage/lcov-report/node-opus/lib/index.html', 436, 438 ]
+584 silly gunzTarPerm extractEntry coverage/lcov-report/prettify.css
+585 silly gunzTarPerm modified mode [ 'coverage/lcov-report/prettify.css', 436, 438 ]
+586 silly gunzTarPerm extractEntry doc/object_wrappers.md
+587 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+588 silly gunzTarPerm extractEntry doc/persistent.md
+589 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+590 silly gunzTarPerm extractEntry docs/scripts/jquery-1.7.2.min.js
+591 silly gunzTarPerm modified mode [ 'docs/scripts/jquery-1.7.2.min.js', 420, 438 ]
+592 silly gunzTarPerm extractEntry docs/scripts/main.js
+593 silly gunzTarPerm modified mode [ 'docs/scripts/main.js', 420, 438 ]
+594 silly gunzTarPerm extractEntry doc/scopes.md
+595 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+596 silly gunzTarPerm extractEntry doc/script.md
+597 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+598 silly gunzTarPerm extractEntry coverage/lcov-report/sort-arrow-sprite.png
+599 silly gunzTarPerm modified mode [ 'coverage/lcov-report/sort-arrow-sprite.png', 436, 438 ]
+600 silly gunzTarPerm extractEntry coverage/lcov.info
+601 silly gunzTarPerm modified mode [ 'coverage/lcov.info', 436, 438 ]
+602 silly gunzTarPerm extractEntry docs/stylesheets/base.css
+603 silly gunzTarPerm modified mode [ 'docs/stylesheets/base.css', 420, 438 ]
+604 silly gunzTarPerm extractEntry docs/stylesheets/layout.css
+605 silly gunzTarPerm modified mode [ 'docs/stylesheets/layout.css', 420, 438 ]
+606 silly gunzTarPerm extractEntry doc/string_bytes.md
+607 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+608 silly gunzTarPerm extractEntry doc/v8_internals.md
+609 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+610 silly gunzTarPerm extractEntry bin/opusdec-js.js
+611 silly gunzTarPerm modified mode [ 'bin/opusdec-js.js', 509, 511 ]
+612 silly gunzTarPerm extractEntry bin/opusenc-js.js
+613 silly gunzTarPerm modified mode [ 'bin/opusenc-js.js', 509, 511 ]
+614 silly gunzTarPerm extractEntry docs/stylesheets/skeleton.css
+615 silly gunzTarPerm modified mode [ 'docs/stylesheets/skeleton.css', 420, 438 ]
+616 silly gunzTarPerm extractEntry lib/ref.js
+617 silly gunzTarPerm modified mode [ 'lib/ref.js', 420, 438 ]
+618 silly gunzTarPerm extractEntry src/binding.cc
+619 silly gunzTarPerm modified mode [ 'src/binding.cc', 420, 438 ]
+620 silly gunzTarPerm extractEntry CHANGELOG.md
+621 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+622 silly gunzTarPerm extractEntry test/address.js
+623 silly gunzTarPerm modified mode [ 'test/address.js', 420, 438 ]
+624 silly gunzTarPerm extractEntry test/coerce.js
+625 silly gunzTarPerm modified mode [ 'test/coerce.js', 420, 438 ]
+626 silly gunzTarPerm extractEntry test/int64.js
+627 silly gunzTarPerm modified mode [ 'test/int64.js', 420, 438 ]
+628 silly gunzTarPerm extractEntry test/iojs3issue.js
+629 silly gunzTarPerm modified mode [ 'test/iojs3issue.js', 420, 438 ]
+630 silly gunzTarPerm extractEntry test/isNull.js
+631 silly gunzTarPerm modified mode [ 'test/isNull.js', 420, 438 ]
+632 silly gunzTarPerm extractEntry test/char.js
+633 silly gunzTarPerm modified mode [ 'test/char.js', 420, 438 ]
+634 silly gunzTarPerm extractEntry test/pointer.js
+635 silly gunzTarPerm modified mode [ 'test/pointer.js', 420, 438 ]
+636 silly gunzTarPerm extractEntry test/ref-deref.js
+637 silly gunzTarPerm modified mode [ 'test/ref-deref.js', 420, 438 ]
+638 silly gunzTarPerm extractEntry test/reinterpret.js
+639 silly gunzTarPerm modified mode [ 'test/reinterpret.js', 420, 438 ]
+640 silly gunzTarPerm extractEntry test/reinterpretUntilZeros.js
+641 silly gunzTarPerm modified mode [ 'test/reinterpretUntilZeros.js', 420, 438 ]
+642 silly gunzTarPerm extractEntry test/string.js
+643 silly gunzTarPerm modified mode [ 'test/string.js', 420, 438 ]
+644 silly gunzTarPerm extractEntry test/bool.js
+645 silly gunzTarPerm modified mode [ 'test/bool.js', 420, 438 ]
+646 silly gunzTarPerm extractEntry test/types.js
+647 silly gunzTarPerm modified mode [ 'test/types.js', 420, 438 ]
+648 silly gunzTarPerm extractEntry test/alloc.js
+649 silly gunzTarPerm modified mode [ 'test/alloc.js', 420, 438 ]
+650 silly gunzTarPerm extractEntry test/object.js
+651 silly gunzTarPerm modified mode [ 'test/object.js', 420, 438 ]
+652 silly gunzTarPerm extractEntry test/utf16le.bin
+653 silly gunzTarPerm modified mode [ 'test/utf16le.bin', 420, 438 ]
+654 silly gunzTarPerm extractEntry binding.gyp
+655 silly gunzTarPerm modified mode [ 'binding.gyp', 436, 438 ]
+656 silly gunzTarPerm extractEntry .gitattributes
+657 silly gunzTarPerm modified mode [ '.gitattributes', 436, 438 ]
+658 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ref-struct-dd6e99d3\node_modules is being purged
+659 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ref-struct-dd6e99d3\node_modules
+660 silly gunzTarPerm extractEntry doc/v8_misc.md
+661 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+662 silly gunzTarPerm extractEntry nan.h
+663 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+664 silly gunzTarPerm extractEntry deps/binding.gyp
+665 silly gunzTarPerm modified mode [ 'deps/binding.gyp', 436, 438 ]
+666 silly gunzTarPerm extractEntry deps/config/opus/freebsd/x64/config.h
+667 silly gunzTarPerm modified mode [ 'deps/config/opus/freebsd/x64/config.h', 436, 438 ]
+668 silly gunzTarPerm extractEntry nan_callbacks.h
+669 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+670 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+671 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+672 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+673 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+674 silly gunzTarPerm extractEntry nan_converters.h
+675 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+676 silly gunzTarPerm extractEntry deps/config/opus/linux/arm/config.h
+677 silly gunzTarPerm modified mode [ 'deps/config/opus/linux/arm/config.h', 436, 438 ]
+678 silly gunzTarPerm extractEntry deps/config/opus/linux/ia32/config.h
+679 silly gunzTarPerm modified mode [ 'deps/config/opus/linux/ia32/config.h', 436, 438 ]
+680 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+681 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+682 silly gunzTarPerm extractEntry deps/config/opus/linux/x64/config.h
+683 silly gunzTarPerm modified mode [ 'deps/config/opus/linux/x64/config.h', 436, 438 ]
+684 silly gunzTarPerm extractEntry deps/config/opus/mac/x64/config.h
+685 silly gunzTarPerm modified mode [ 'deps/config/opus/mac/x64/config.h', 436, 438 ]
+686 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+687 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+688 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+689 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+690 silly gunzTarPerm extractEntry nan_json.h
+691 silly gunzTarPerm modified mode [ 'nan_json.h', 436, 438 ]
+692 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+693 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+694 silly gunzTarPerm extractEntry deps/config/opus/win/x64/config.h
+695 silly gunzTarPerm modified mode [ 'deps/config/opus/win/x64/config.h', 436, 438 ]
+696 silly gunzTarPerm extractEntry deps/config/opus/win/x64/version.h
+697 silly gunzTarPerm modified mode [ 'deps/config/opus/win/x64/version.h', 436, 438 ]
+698 silly gunzTarPerm extractEntry deps/opus/README
+699 silly gunzTarPerm modified mode [ 'deps/opus/README', 436, 438 ]
+700 silly gunzTarPerm extractEntry deps/opus/depcomp
+701 silly gunzTarPerm modified mode [ 'deps/opus/depcomp', 493, 511 ]
+702 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+703 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+704 silly gunzTarPerm extractEntry nan_new.h
+705 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+706 silly gunzTarPerm extractEntry deps/opus/ChangeLog
+707 silly gunzTarPerm modified mode [ 'deps/opus/ChangeLog', 436, 438 ]
+708 silly gunzTarPerm extractEntry deps/opus/INSTALL
+709 silly gunzTarPerm modified mode [ 'deps/opus/INSTALL', 420, 438 ]
+710 silly gunzTarPerm extractEntry nan_object_wrap.h
+711 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+712 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+713 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+714 silly gunzTarPerm extractEntry deps/opus/Makefile.am
+715 silly gunzTarPerm modified mode [ 'deps/opus/Makefile.am', 436, 438 ]
+716 silly gunzTarPerm extractEntry deps/opus/Makefile.in
+717 silly gunzTarPerm modified mode [ 'deps/opus/Makefile.in', 436, 438 ]
+718 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+719 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+720 silly gunzTarPerm extractEntry nan_private.h
+721 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 438 ]
+722 silly gunzTarPerm extractEntry deps/opus/Makefile.mips
+723 silly gunzTarPerm modified mode [ 'deps/opus/Makefile.mips', 436, 438 ]
+724 silly gunzTarPerm extractEntry nan_string_bytes.h
+725 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+726 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+727 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+728 silly gunzTarPerm extractEntry deps/opus/Makefile.unix
+729 silly gunzTarPerm modified mode [ 'deps/opus/Makefile.unix', 436, 438 ]
+730 silly gunzTarPerm extractEntry deps/opus/NEWS
+731 silly gunzTarPerm modified mode [ 'deps/opus/NEWS', 436, 438 ]
+732 silly gunzTarPerm extractEntry nan_weak.h
+733 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+734 silly gunzTarPerm extractEntry CHANGELOG.md
+735 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+736 silly gunzTarPerm extractEntry deps/opus/AUTHORS
+737 silly gunzTarPerm modified mode [ 'deps/opus/AUTHORS', 436, 438 ]
+738 silly gunzTarPerm extractEntry deps/opus/aclocal.m4
+739 silly gunzTarPerm modified mode [ 'deps/opus/aclocal.m4', 436, 438 ]
+740 silly gunzTarPerm extractEntry tools/package.json
+741 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+742 silly gunzTarPerm extractEntry tools/README.md
+743 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+744 silly gunzTarPerm extractEntry deps/opus/celt/laplace.c
+745 silly gunzTarPerm modified mode [ 'deps/opus/celt/laplace.c', 436, 438 ]
+746 silly gunzTarPerm extractEntry deps/opus/celt/_kiss_fft_guts.h
+747 silly gunzTarPerm modified mode [ 'deps/opus/celt/_kiss_fft_guts.h', 436, 438 ]
+748 silly gunzTarPerm extractEntry tools/1to2.js
+749 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+750 silly gunzTarPerm extractEntry deps/opus/celt/arm/celt_pitch_xcorr_arm-gnu.S
+751 silly gunzTarPerm modified mode [ 'deps/opus/celt/arm/celt_pitch_xcorr_arm-gnu.S', 436, 438 ]
+752 silly gunzTarPerm extractEntry deps/opus/celt/arm/arm2gnu.pl
+753 silly gunzTarPerm modified mode [ 'deps/opus/celt/arm/arm2gnu.pl', 509, 511 ]
+754 silly gunzTarPerm extractEntry deps/opus/celt/arm/armcpu.c
+755 silly gunzTarPerm modified mode [ 'deps/opus/celt/arm/armcpu.c', 436, 438 ]
+756 silly gunzTarPerm extractEntry deps/opus/celt/arm/armcpu.h
+757 silly gunzTarPerm modified mode [ 'deps/opus/celt/arm/armcpu.h', 436, 438 ]
+758 silly gunzTarPerm extractEntry deps/opus/celt/arm/armopts.s.in
+759 silly gunzTarPerm modified mode [ 'deps/opus/celt/arm/armopts.s.in', 436, 438 ]
+760 silly gunzTarPerm extractEntry deps/opus/celt/arm/celt_ne10_fft.c
+761 silly gunzTarPerm modified mode [ 'deps/opus/celt/arm/celt_ne10_fft.c', 436, 438 ]
+762 silly gunzTarPerm extractEntry deps/opus/celt/arm/celt_ne10_mdct.c
+763 silly gunzTarPerm modified mode [ 'deps/opus/celt/arm/celt_ne10_mdct.c', 436, 438 ]
+764 silly gunzTarPerm extractEntry deps/opus/celt/arm/celt_neon_intr.c
+765 silly gunzTarPerm modified mode [ 'deps/opus/celt/arm/celt_neon_intr.c', 436, 438 ]
+766 silly gunzTarPerm extractEntry deps/opus/celt/arm/arm_celt_map.c
+767 silly gunzTarPerm modified mode [ 'deps/opus/celt/arm/arm_celt_map.c', 436, 438 ]
+768 silly gunzTarPerm extractEntry deps/opus/celt/arm/celt_pitch_xcorr_arm.s
+769 silly gunzTarPerm modified mode [ 'deps/opus/celt/arm/celt_pitch_xcorr_arm.s', 436, 438 ]
+770 silly gunzTarPerm extractEntry deps/opus/celt/arm/fft_arm.h
+771 silly gunzTarPerm modified mode [ 'deps/opus/celt/arm/fft_arm.h', 436, 438 ]
+772 silly gunzTarPerm extractEntry deps/opus/celt/arm/fixed_armv4.h
+773 silly gunzTarPerm modified mode [ 'deps/opus/celt/arm/fixed_armv4.h', 436, 438 ]
+774 silly gunzTarPerm extractEntry deps/opus/celt/arm/fixed_armv5e.h
+775 silly gunzTarPerm modified mode [ 'deps/opus/celt/arm/fixed_armv5e.h', 436, 438 ]
+776 silly gunzTarPerm extractEntry deps/opus/celt/arm/kiss_fft_armv4.h
+777 silly gunzTarPerm modified mode [ 'deps/opus/celt/arm/kiss_fft_armv4.h', 436, 438 ]
+778 silly gunzTarPerm extractEntry deps/opus/celt/arm/kiss_fft_armv5e.h
+779 silly gunzTarPerm modified mode [ 'deps/opus/celt/arm/kiss_fft_armv5e.h', 436, 438 ]
+780 silly gunzTarPerm extractEntry deps/opus/celt/arm/mdct_arm.h
+781 silly gunzTarPerm modified mode [ 'deps/opus/celt/arm/mdct_arm.h', 436, 438 ]
+782 silly gunzTarPerm extractEntry deps/opus/celt/arm/pitch_arm.h
+783 silly gunzTarPerm modified mode [ 'deps/opus/celt/arm/pitch_arm.h', 436, 438 ]
+784 silly gunzTarPerm extractEntry deps/opus/celt/bands.c
+785 silly gunzTarPerm modified mode [ 'deps/opus/celt/bands.c', 436, 438 ]
+786 silly gunzTarPerm extractEntry deps/opus/celt/bands.h
+787 silly gunzTarPerm modified mode [ 'deps/opus/celt/bands.h', 436, 438 ]
+788 silly gunzTarPerm extractEntry deps/opus/celt/celt.c
+789 silly gunzTarPerm modified mode [ 'deps/opus/celt/celt.c', 436, 438 ]
+790 silly gunzTarPerm extractEntry deps/opus/celt/celt.h
+791 silly gunzTarPerm modified mode [ 'deps/opus/celt/celt.h', 436, 438 ]
+792 silly gunzTarPerm extractEntry deps/opus/celt/celt_decoder.c
+793 silly gunzTarPerm modified mode [ 'deps/opus/celt/celt_decoder.c', 436, 438 ]
+794 silly gunzTarPerm extractEntry deps/opus/celt/celt_encoder.c
+795 silly gunzTarPerm modified mode [ 'deps/opus/celt/celt_encoder.c', 436, 438 ]
+796 silly gunzTarPerm extractEntry deps/opus/celt/celt_lpc.c
+797 silly gunzTarPerm modified mode [ 'deps/opus/celt/celt_lpc.c', 436, 438 ]
+798 silly gunzTarPerm extractEntry deps/opus/celt/celt_lpc.h
+799 silly gunzTarPerm modified mode [ 'deps/opus/celt/celt_lpc.h', 436, 438 ]
+800 silly gunzTarPerm extractEntry deps/opus/celt/cpu_support.h
+801 silly gunzTarPerm modified mode [ 'deps/opus/celt/cpu_support.h', 436, 438 ]
+802 silly gunzTarPerm extractEntry deps/opus/celt/cwrs.c
+803 silly gunzTarPerm modified mode [ 'deps/opus/celt/cwrs.c', 436, 438 ]
+804 silly gunzTarPerm extractEntry deps/opus/celt/cwrs.h
+805 silly gunzTarPerm modified mode [ 'deps/opus/celt/cwrs.h', 436, 438 ]
+806 silly gunzTarPerm extractEntry deps/opus/celt/ecintrin.h
+807 silly gunzTarPerm modified mode [ 'deps/opus/celt/ecintrin.h', 436, 438 ]
+808 silly gunzTarPerm extractEntry deps/opus/celt/entcode.c
+809 silly gunzTarPerm modified mode [ 'deps/opus/celt/entcode.c', 436, 438 ]
+810 silly gunzTarPerm extractEntry deps/opus/celt/entcode.h
+811 silly gunzTarPerm modified mode [ 'deps/opus/celt/entcode.h', 436, 438 ]
+812 silly gunzTarPerm extractEntry deps/opus/celt/entdec.c
+813 silly gunzTarPerm modified mode [ 'deps/opus/celt/entdec.c', 436, 438 ]
+814 silly gunzTarPerm extractEntry deps/opus/celt/entdec.h
+815 silly gunzTarPerm modified mode [ 'deps/opus/celt/entdec.h', 436, 438 ]
+816 silly gunzTarPerm extractEntry deps/opus/celt/entenc.c
+817 silly gunzTarPerm modified mode [ 'deps/opus/celt/entenc.c', 436, 438 ]
+818 silly gunzTarPerm extractEntry deps/opus/celt/entenc.h
+819 silly gunzTarPerm modified mode [ 'deps/opus/celt/entenc.h', 436, 438 ]
+820 silly gunzTarPerm extractEntry deps/opus/celt/fixed_debug.h
+821 silly gunzTarPerm modified mode [ 'deps/opus/celt/fixed_debug.h', 436, 438 ]
+822 silly gunzTarPerm extractEntry deps/opus/celt/fixed_generic.h
+823 silly gunzTarPerm modified mode [ 'deps/opus/celt/fixed_generic.h', 436, 438 ]
+824 silly gunzTarPerm extractEntry deps/opus/celt/float_cast.h
+825 silly gunzTarPerm modified mode [ 'deps/opus/celt/float_cast.h', 436, 438 ]
+826 silly gunzTarPerm extractEntry deps/opus/celt/kiss_fft.c
+827 silly gunzTarPerm modified mode [ 'deps/opus/celt/kiss_fft.c', 436, 438 ]
+828 silly gunzTarPerm extractEntry deps/opus/celt/kiss_fft.h
+829 silly gunzTarPerm modified mode [ 'deps/opus/celt/kiss_fft.h', 436, 438 ]
+830 silly gunzTarPerm extractEntry deps/opus/celt/arch.h
+831 silly gunzTarPerm modified mode [ 'deps/opus/celt/arch.h', 436, 438 ]
+832 silly gunzTarPerm extractEntry deps/opus/celt/laplace.h
+833 silly gunzTarPerm modified mode [ 'deps/opus/celt/laplace.h', 436, 438 ]
+834 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ref-387bb73a\node_modules is being purged
+835 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ref-387bb73a\node_modules
+836 silly gunzTarPerm extractEntry deps/opus/celt/mathops.c
+837 silly gunzTarPerm modified mode [ 'deps/opus/celt/mathops.c', 436, 438 ]
+838 silly gunzTarPerm extractEntry deps/opus/celt/mathops.h
+839 silly gunzTarPerm modified mode [ 'deps/opus/celt/mathops.h', 436, 438 ]
+840 silly gunzTarPerm extractEntry deps/opus/celt/mdct.c
+841 silly gunzTarPerm modified mode [ 'deps/opus/celt/mdct.c', 436, 438 ]
+842 silly gunzTarPerm extractEntry deps/opus/celt/mdct.h
+843 silly gunzTarPerm modified mode [ 'deps/opus/celt/mdct.h', 436, 438 ]
+844 silly gunzTarPerm extractEntry deps/opus/celt/mfrngcod.h
+845 silly gunzTarPerm modified mode [ 'deps/opus/celt/mfrngcod.h', 436, 438 ]
+846 silly gunzTarPerm extractEntry deps/opus/celt/mips/celt_mipsr1.h
+847 silly gunzTarPerm modified mode [ 'deps/opus/celt/mips/celt_mipsr1.h', 436, 438 ]
+848 silly gunzTarPerm extractEntry deps/opus/celt/mips/fixed_generic_mipsr1.h
+849 silly gunzTarPerm modified mode [ 'deps/opus/celt/mips/fixed_generic_mipsr1.h', 436, 438 ]
+850 silly gunzTarPerm extractEntry deps/opus/celt/mips/kiss_fft_mipsr1.h
+851 silly gunzTarPerm modified mode [ 'deps/opus/celt/mips/kiss_fft_mipsr1.h', 436, 438 ]
+852 silly gunzTarPerm extractEntry deps/opus/celt/mips/mdct_mipsr1.h
+853 silly gunzTarPerm modified mode [ 'deps/opus/celt/mips/mdct_mipsr1.h', 436, 438 ]
+854 silly gunzTarPerm extractEntry deps/opus/celt/mips/pitch_mipsr1.h
+855 silly gunzTarPerm modified mode [ 'deps/opus/celt/mips/pitch_mipsr1.h', 436, 438 ]
+856 silly gunzTarPerm extractEntry deps/opus/celt/mips/vq_mipsr1.h
+857 silly gunzTarPerm modified mode [ 'deps/opus/celt/mips/vq_mipsr1.h', 436, 438 ]
+858 silly gunzTarPerm extractEntry deps/opus/celt/modes.c
+859 silly gunzTarPerm modified mode [ 'deps/opus/celt/modes.c', 436, 438 ]
+860 silly gunzTarPerm extractEntry deps/opus/celt/modes.h
+861 silly gunzTarPerm modified mode [ 'deps/opus/celt/modes.h', 436, 438 ]
+862 silly gunzTarPerm extractEntry deps/opus/celt/opus_custom_demo.c
+863 silly gunzTarPerm modified mode [ 'deps/opus/celt/opus_custom_demo.c', 436, 438 ]
+864 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\nan-9958a85a\node_modules is being purged
+865 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\nan-9958a85a\node_modules
+866 silly gunzTarPerm extractEntry deps/opus/celt/os_support.h
+867 silly gunzTarPerm modified mode [ 'deps/opus/celt/os_support.h', 436, 438 ]
+868 silly gunzTarPerm extractEntry deps/opus/celt/pitch.c
+869 silly gunzTarPerm modified mode [ 'deps/opus/celt/pitch.c', 436, 438 ]
+870 silly gunzTarPerm extractEntry deps/opus/celt/pitch.h
+871 silly gunzTarPerm modified mode [ 'deps/opus/celt/pitch.h', 436, 438 ]
+872 silly gunzTarPerm extractEntry deps/opus/celt/quant_bands.c
+873 silly gunzTarPerm modified mode [ 'deps/opus/celt/quant_bands.c', 436, 438 ]
+874 silly gunzTarPerm extractEntry deps/opus/celt/quant_bands.h
+875 silly gunzTarPerm modified mode [ 'deps/opus/celt/quant_bands.h', 436, 438 ]
+876 silly gunzTarPerm extractEntry deps/opus/celt/rate.c
+877 silly gunzTarPerm modified mode [ 'deps/opus/celt/rate.c', 436, 438 ]
+878 silly gunzTarPerm extractEntry deps/opus/celt/rate.h
+879 silly gunzTarPerm modified mode [ 'deps/opus/celt/rate.h', 436, 438 ]
+880 silly gunzTarPerm extractEntry deps/opus/celt/stack_alloc.h
+881 silly gunzTarPerm modified mode [ 'deps/opus/celt/stack_alloc.h', 436, 438 ]
+882 silly gunzTarPerm extractEntry deps/opus/celt/static_modes_fixed.h
+883 silly gunzTarPerm modified mode [ 'deps/opus/celt/static_modes_fixed.h', 436, 438 ]
+884 silly gunzTarPerm extractEntry deps/opus/celt/static_modes_fixed_arm_ne10.h
+885 silly gunzTarPerm modified mode [ 'deps/opus/celt/static_modes_fixed_arm_ne10.h', 436, 438 ]
+886 silly gunzTarPerm extractEntry deps/opus/celt/static_modes_float.h
+887 silly gunzTarPerm modified mode [ 'deps/opus/celt/static_modes_float.h', 436, 438 ]
+888 silly gunzTarPerm extractEntry deps/opus/celt/static_modes_float_arm_ne10.h
+889 silly gunzTarPerm modified mode [ 'deps/opus/celt/static_modes_float_arm_ne10.h', 436, 438 ]
+890 silly gunzTarPerm extractEntry deps/opus/celt/tests/test_unit_cwrs32.c
+891 silly gunzTarPerm modified mode [ 'deps/opus/celt/tests/test_unit_cwrs32.c', 436, 438 ]
+892 silly gunzTarPerm extractEntry deps/opus/celt/tests/test_unit_dft.c
+893 silly gunzTarPerm modified mode [ 'deps/opus/celt/tests/test_unit_dft.c', 436, 438 ]
+894 silly gunzTarPerm extractEntry deps/opus/celt/tests/test_unit_entropy.c
+895 silly gunzTarPerm modified mode [ 'deps/opus/celt/tests/test_unit_entropy.c', 436, 438 ]
+896 silly gunzTarPerm extractEntry deps/opus/celt/tests/test_unit_laplace.c
+897 silly gunzTarPerm modified mode [ 'deps/opus/celt/tests/test_unit_laplace.c', 436, 438 ]
+898 silly gunzTarPerm extractEntry deps/opus/celt/tests/test_unit_mathops.c
+899 silly gunzTarPerm modified mode [ 'deps/opus/celt/tests/test_unit_mathops.c', 436, 438 ]
+900 silly gunzTarPerm extractEntry deps/opus/celt/tests/test_unit_mdct.c
+901 silly gunzTarPerm modified mode [ 'deps/opus/celt/tests/test_unit_mdct.c', 436, 438 ]
+902 silly gunzTarPerm extractEntry deps/opus/celt/tests/test_unit_rotation.c
+903 silly gunzTarPerm modified mode [ 'deps/opus/celt/tests/test_unit_rotation.c', 436, 438 ]
+904 silly gunzTarPerm extractEntry deps/opus/celt/tests/test_unit_types.c
+905 silly gunzTarPerm modified mode [ 'deps/opus/celt/tests/test_unit_types.c', 436, 438 ]
+906 silly gunzTarPerm extractEntry deps/opus/celt/vq.c
+907 silly gunzTarPerm modified mode [ 'deps/opus/celt/vq.c', 436, 438 ]
+908 silly gunzTarPerm extractEntry deps/opus/celt/vq.h
+909 silly gunzTarPerm modified mode [ 'deps/opus/celt/vq.h', 436, 438 ]
+910 silly gunzTarPerm extractEntry deps/opus/celt/x86/celt_lpc_sse.c
+911 silly gunzTarPerm modified mode [ 'deps/opus/celt/x86/celt_lpc_sse.c', 436, 438 ]
+912 silly gunzTarPerm extractEntry deps/opus/celt/x86/celt_lpc_sse.h
+913 silly gunzTarPerm modified mode [ 'deps/opus/celt/x86/celt_lpc_sse.h', 436, 438 ]
+914 silly gunzTarPerm extractEntry deps/opus/celt/x86/pitch_sse.c
+915 silly gunzTarPerm modified mode [ 'deps/opus/celt/x86/pitch_sse.c', 436, 438 ]
+916 silly gunzTarPerm extractEntry deps/opus/celt/x86/pitch_sse.h
+917 silly gunzTarPerm modified mode [ 'deps/opus/celt/x86/pitch_sse.h', 436, 438 ]
+918 silly gunzTarPerm extractEntry deps/opus/celt/x86/pitch_sse2.c
+919 silly gunzTarPerm modified mode [ 'deps/opus/celt/x86/pitch_sse2.c', 436, 438 ]
+920 silly gunzTarPerm extractEntry deps/opus/celt/x86/pitch_sse4_1.c
+921 silly gunzTarPerm modified mode [ 'deps/opus/celt/x86/pitch_sse4_1.c', 436, 438 ]
+922 silly gunzTarPerm extractEntry deps/opus/celt/x86/x86_celt_map.c
+923 silly gunzTarPerm modified mode [ 'deps/opus/celt/x86/x86_celt_map.c', 436, 438 ]
+924 silly gunzTarPerm extractEntry deps/opus/celt/x86/x86cpu.c
+925 silly gunzTarPerm modified mode [ 'deps/opus/celt/x86/x86cpu.c', 436, 438 ]
+926 silly gunzTarPerm extractEntry deps/opus/celt/x86/x86cpu.h
+927 silly gunzTarPerm modified mode [ 'deps/opus/celt/x86/x86cpu.h', 436, 438 ]
+928 silly gunzTarPerm extractEntry deps/opus/celt_headers.mk
+929 silly gunzTarPerm modified mode [ 'deps/opus/celt_headers.mk', 436, 438 ]
+930 silly gunzTarPerm extractEntry deps/opus/celt_sources.mk
+931 silly gunzTarPerm modified mode [ 'deps/opus/celt_sources.mk', 436, 438 ]
+932 silly gunzTarPerm extractEntry deps/opus/compile
+933 silly gunzTarPerm modified mode [ 'deps/opus/compile', 493, 511 ]
+934 silly gunzTarPerm extractEntry deps/opus/config.guess
+935 silly gunzTarPerm modified mode [ 'deps/opus/config.guess', 493, 511 ]
+936 silly gunzTarPerm extractEntry deps/opus/config.h.in
+937 silly gunzTarPerm modified mode [ 'deps/opus/config.h.in', 436, 438 ]
+938 silly gunzTarPerm extractEntry deps/opus/config.sub
+939 silly gunzTarPerm modified mode [ 'deps/opus/config.sub', 493, 511 ]
+940 silly gunzTarPerm extractEntry deps/opus/configure
+941 silly gunzTarPerm modified mode [ 'deps/opus/configure', 509, 511 ]
+942 silly gunzTarPerm extractEntry deps/opus/configure.ac
+943 silly gunzTarPerm modified mode [ 'deps/opus/configure.ac', 436, 438 ]
+944 silly gunzTarPerm extractEntry deps/opus/COPYING
+945 silly gunzTarPerm modified mode [ 'deps/opus/COPYING', 436, 438 ]
+946 silly gunzTarPerm extractEntry deps/opus/doc/Doxyfile.in
+947 silly gunzTarPerm modified mode [ 'deps/opus/doc/Doxyfile.in', 436, 438 ]
+948 silly gunzTarPerm extractEntry deps/opus/doc/Makefile.am
+949 silly gunzTarPerm modified mode [ 'deps/opus/doc/Makefile.am', 436, 438 ]
+950 silly gunzTarPerm extractEntry deps/opus/doc/Makefile.in
+951 silly gunzTarPerm modified mode [ 'deps/opus/doc/Makefile.in', 436, 438 ]
+952 silly gunzTarPerm extractEntry deps/opus/doc/TODO
+953 silly gunzTarPerm modified mode [ 'deps/opus/doc/TODO', 436, 438 ]
+954 silly gunzTarPerm extractEntry deps/opus/doc/customdoxygen.css
+955 silly gunzTarPerm modified mode [ 'deps/opus/doc/customdoxygen.css', 436, 438 ]
+956 silly gunzTarPerm extractEntry deps/opus/doc/footer.html
+957 silly gunzTarPerm modified mode [ 'deps/opus/doc/footer.html', 436, 438 ]
+958 silly gunzTarPerm extractEntry deps/opus/doc/header.html
+959 silly gunzTarPerm modified mode [ 'deps/opus/doc/header.html', 436, 438 ]
+960 silly gunzTarPerm extractEntry deps/opus/doc/opus_logo.svg
+961 silly gunzTarPerm modified mode [ 'deps/opus/doc/opus_logo.svg', 436, 438 ]
+962 silly gunzTarPerm extractEntry deps/opus/doc/trivial_example.c
+963 silly gunzTarPerm modified mode [ 'deps/opus/doc/trivial_example.c', 436, 438 ]
+964 silly gunzTarPerm extractEntry deps/opus/include/opus.h
+965 silly gunzTarPerm modified mode [ 'deps/opus/include/opus.h', 436, 438 ]
+966 silly gunzTarPerm extractEntry deps/opus/include/opus_custom.h
+967 silly gunzTarPerm modified mode [ 'deps/opus/include/opus_custom.h', 436, 438 ]
+968 silly gunzTarPerm extractEntry deps/opus/include/opus_defines.h
+969 silly gunzTarPerm modified mode [ 'deps/opus/include/opus_defines.h', 436, 438 ]
+970 silly gunzTarPerm extractEntry deps/opus/include/opus_multistream.h
+971 silly gunzTarPerm modified mode [ 'deps/opus/include/opus_multistream.h', 436, 438 ]
+972 silly gunzTarPerm extractEntry deps/opus/include/opus_types.h
+973 silly gunzTarPerm modified mode [ 'deps/opus/include/opus_types.h', 436, 438 ]
+974 silly gunzTarPerm extractEntry deps/opus/install-sh
+975 silly gunzTarPerm modified mode [ 'deps/opus/install-sh', 493, 511 ]
+976 silly gunzTarPerm extractEntry deps/opus/ltmain.sh
+977 silly gunzTarPerm modified mode [ 'deps/opus/ltmain.sh', 420, 438 ]
+978 silly gunzTarPerm extractEntry deps/opus/m4/as-gcc-inline-assembly.m4
+979 silly gunzTarPerm modified mode [ 'deps/opus/m4/as-gcc-inline-assembly.m4', 436, 438 ]
+980 silly gunzTarPerm extractEntry deps/opus/m4/libtool.m4
+981 silly gunzTarPerm modified mode [ 'deps/opus/m4/libtool.m4', 420, 438 ]
+982 silly gunzTarPerm extractEntry deps/opus/m4/ltoptions.m4
+983 silly gunzTarPerm modified mode [ 'deps/opus/m4/ltoptions.m4', 420, 438 ]
+984 silly gunzTarPerm extractEntry deps/opus/m4/ltsugar.m4
+985 silly gunzTarPerm modified mode [ 'deps/opus/m4/ltsugar.m4', 420, 438 ]
+986 silly gunzTarPerm extractEntry deps/opus/m4/ltversion.m4
+987 silly gunzTarPerm modified mode [ 'deps/opus/m4/ltversion.m4', 420, 438 ]
+988 silly gunzTarPerm extractEntry deps/opus/m4/lt~obsolete.m4
+989 silly gunzTarPerm modified mode [ 'deps/opus/m4/lt~obsolete.m4', 420, 438 ]
+990 silly gunzTarPerm extractEntry deps/opus/m4/opus-intrinsics.m4
+991 silly gunzTarPerm modified mode [ 'deps/opus/m4/opus-intrinsics.m4', 436, 438 ]
+992 silly gunzTarPerm extractEntry deps/opus/missing
+993 silly gunzTarPerm modified mode [ 'deps/opus/missing', 493, 511 ]
+994 silly gunzTarPerm extractEntry deps/opus/opus-uninstalled.pc.in
+995 silly gunzTarPerm modified mode [ 'deps/opus/opus-uninstalled.pc.in', 436, 438 ]
+996 silly gunzTarPerm extractEntry deps/opus/opus.m4
+997 silly gunzTarPerm modified mode [ 'deps/opus/opus.m4', 436, 438 ]
+998 silly gunzTarPerm extractEntry deps/opus/opus.pc.in
+999 silly gunzTarPerm modified mode [ 'deps/opus/opus.pc.in', 436, 438 ]
+1000 silly gunzTarPerm extractEntry deps/opus/opus_headers.mk
+1001 silly gunzTarPerm modified mode [ 'deps/opus/opus_headers.mk', 436, 438 ]
+1002 silly gunzTarPerm extractEntry deps/opus/opus_sources.mk
+1003 silly gunzTarPerm modified mode [ 'deps/opus/opus_sources.mk', 436, 438 ]
+1004 silly gunzTarPerm extractEntry deps/opus/package_version
+1005 silly gunzTarPerm modified mode [ 'deps/opus/package_version', 436, 438 ]
+1006 silly gunzTarPerm extractEntry deps/opus/silk/errors.h
+1007 silly gunzTarPerm modified mode [ 'deps/opus/silk/errors.h', 436, 438 ]
+1008 silly gunzTarPerm extractEntry deps/opus/silk/A2NLSF.c
+1009 silly gunzTarPerm modified mode [ 'deps/opus/silk/A2NLSF.c', 436, 438 ]
+1010 silly gunzTarPerm extractEntry deps/opus/silk/CNG.c
+1011 silly gunzTarPerm modified mode [ 'deps/opus/silk/CNG.c', 436, 438 ]
+1012 silly gunzTarPerm extractEntry deps/opus/silk/HP_variable_cutoff.c
+1013 silly gunzTarPerm modified mode [ 'deps/opus/silk/HP_variable_cutoff.c', 436, 438 ]
+1014 silly gunzTarPerm extractEntry deps/opus/silk/Inlines.h
+1015 silly gunzTarPerm modified mode [ 'deps/opus/silk/Inlines.h', 436, 438 ]
+1016 silly gunzTarPerm extractEntry deps/opus/silk/LPC_analysis_filter.c
+1017 silly gunzTarPerm modified mode [ 'deps/opus/silk/LPC_analysis_filter.c', 436, 438 ]
+1018 silly gunzTarPerm extractEntry deps/opus/silk/LPC_inv_pred_gain.c
+1019 silly gunzTarPerm modified mode [ 'deps/opus/silk/LPC_inv_pred_gain.c', 436, 438 ]
+1020 silly gunzTarPerm extractEntry deps/opus/silk/LP_variable_cutoff.c
+1021 silly gunzTarPerm modified mode [ 'deps/opus/silk/LP_variable_cutoff.c', 436, 438 ]
+1022 silly gunzTarPerm extractEntry deps/opus/silk/MacroCount.h
+1023 silly gunzTarPerm modified mode [ 'deps/opus/silk/MacroCount.h', 436, 438 ]
+1024 silly gunzTarPerm extractEntry deps/opus/silk/MacroDebug.h
+1025 silly gunzTarPerm modified mode [ 'deps/opus/silk/MacroDebug.h', 436, 438 ]
+1026 silly gunzTarPerm extractEntry deps/opus/silk/NLSF2A.c
+1027 silly gunzTarPerm modified mode [ 'deps/opus/silk/NLSF2A.c', 436, 438 ]
+1028 silly gunzTarPerm extractEntry deps/opus/silk/NLSF_VQ.c
+1029 silly gunzTarPerm modified mode [ 'deps/opus/silk/NLSF_VQ.c', 436, 438 ]
+1030 silly gunzTarPerm extractEntry deps/opus/silk/NLSF_VQ_weights_laroia.c
+1031 silly gunzTarPerm modified mode [ 'deps/opus/silk/NLSF_VQ_weights_laroia.c', 436, 438 ]
+1032 silly gunzTarPerm extractEntry deps/opus/silk/NLSF_decode.c
+1033 silly gunzTarPerm modified mode [ 'deps/opus/silk/NLSF_decode.c', 436, 438 ]
+1034 silly gunzTarPerm extractEntry deps/opus/silk/NLSF_del_dec_quant.c
+1035 silly gunzTarPerm modified mode [ 'deps/opus/silk/NLSF_del_dec_quant.c', 436, 438 ]
+1036 silly gunzTarPerm extractEntry deps/opus/silk/NLSF_encode.c
+1037 silly gunzTarPerm modified mode [ 'deps/opus/silk/NLSF_encode.c', 436, 438 ]
+1038 silly gunzTarPerm extractEntry deps/opus/silk/NLSF_stabilize.c
+1039 silly gunzTarPerm modified mode [ 'deps/opus/silk/NLSF_stabilize.c', 436, 438 ]
+1040 silly gunzTarPerm extractEntry deps/opus/silk/NLSF_unpack.c
+1041 silly gunzTarPerm modified mode [ 'deps/opus/silk/NLSF_unpack.c', 436, 438 ]
+1042 silly gunzTarPerm extractEntry deps/opus/silk/NSQ.c
+1043 silly gunzTarPerm modified mode [ 'deps/opus/silk/NSQ.c', 436, 438 ]
+1044 silly gunzTarPerm extractEntry deps/opus/silk/NSQ_del_dec.c
+1045 silly gunzTarPerm modified mode [ 'deps/opus/silk/NSQ_del_dec.c', 436, 438 ]
+1046 silly gunzTarPerm extractEntry deps/opus/silk/PLC.c
+1047 silly gunzTarPerm modified mode [ 'deps/opus/silk/PLC.c', 436, 438 ]
+1048 silly gunzTarPerm extractEntry deps/opus/silk/PLC.h
+1049 silly gunzTarPerm modified mode [ 'deps/opus/silk/PLC.h', 436, 438 ]
+1050 silly gunzTarPerm extractEntry deps/opus/silk/SigProc_FIX.h
+1051 silly gunzTarPerm modified mode [ 'deps/opus/silk/SigProc_FIX.h', 436, 438 ]
+1052 silly gunzTarPerm extractEntry deps/opus/silk/VAD.c
+1053 silly gunzTarPerm modified mode [ 'deps/opus/silk/VAD.c', 436, 438 ]
+1054 silly gunzTarPerm extractEntry deps/opus/silk/VQ_WMat_EC.c
+1055 silly gunzTarPerm modified mode [ 'deps/opus/silk/VQ_WMat_EC.c', 436, 438 ]
+1056 silly gunzTarPerm extractEntry deps/opus/silk/ana_filt_bank_1.c
+1057 silly gunzTarPerm modified mode [ 'deps/opus/silk/ana_filt_bank_1.c', 436, 438 ]
+1058 silly gunzTarPerm extractEntry deps/opus/silk/arm/SigProc_FIX_armv4.h
+1059 silly gunzTarPerm modified mode [ 'deps/opus/silk/arm/SigProc_FIX_armv4.h', 436, 438 ]
+1060 silly gunzTarPerm extractEntry deps/opus/silk/arm/SigProc_FIX_armv5e.h
+1061 silly gunzTarPerm modified mode [ 'deps/opus/silk/arm/SigProc_FIX_armv5e.h', 436, 438 ]
+1062 silly gunzTarPerm extractEntry deps/opus/silk/arm/macros_armv4.h
+1063 silly gunzTarPerm modified mode [ 'deps/opus/silk/arm/macros_armv4.h', 436, 438 ]
+1064 silly gunzTarPerm extractEntry deps/opus/silk/arm/macros_armv5e.h
+1065 silly gunzTarPerm modified mode [ 'deps/opus/silk/arm/macros_armv5e.h', 436, 438 ]
+1066 silly gunzTarPerm extractEntry deps/opus/silk/biquad_alt.c
+1067 silly gunzTarPerm modified mode [ 'deps/opus/silk/biquad_alt.c', 436, 438 ]
+1068 silly gunzTarPerm extractEntry deps/opus/silk/bwexpander.c
+1069 silly gunzTarPerm modified mode [ 'deps/opus/silk/bwexpander.c', 436, 438 ]
+1070 silly gunzTarPerm extractEntry deps/opus/silk/bwexpander_32.c
+1071 silly gunzTarPerm modified mode [ 'deps/opus/silk/bwexpander_32.c', 436, 438 ]
+1072 silly gunzTarPerm extractEntry deps/opus/silk/check_control_input.c
+1073 silly gunzTarPerm modified mode [ 'deps/opus/silk/check_control_input.c', 436, 438 ]
+1074 silly gunzTarPerm extractEntry deps/opus/silk/code_signs.c
+1075 silly gunzTarPerm modified mode [ 'deps/opus/silk/code_signs.c', 436, 438 ]
+1076 silly gunzTarPerm extractEntry deps/opus/silk/control.h
+1077 silly gunzTarPerm modified mode [ 'deps/opus/silk/control.h', 436, 438 ]
+1078 silly gunzTarPerm extractEntry deps/opus/silk/control_SNR.c
+1079 silly gunzTarPerm modified mode [ 'deps/opus/silk/control_SNR.c', 436, 438 ]
+1080 silly gunzTarPerm extractEntry deps/opus/silk/control_audio_bandwidth.c
+1081 silly gunzTarPerm modified mode [ 'deps/opus/silk/control_audio_bandwidth.c', 436, 438 ]
+1082 silly gunzTarPerm extractEntry deps/opus/silk/control_codec.c
+1083 silly gunzTarPerm modified mode [ 'deps/opus/silk/control_codec.c', 436, 438 ]
+1084 silly gunzTarPerm extractEntry deps/opus/silk/debug.c
+1085 silly gunzTarPerm modified mode [ 'deps/opus/silk/debug.c', 436, 438 ]
+1086 silly gunzTarPerm extractEntry deps/opus/silk/debug.h
+1087 silly gunzTarPerm modified mode [ 'deps/opus/silk/debug.h', 436, 438 ]
+1088 silly gunzTarPerm extractEntry deps/opus/silk/dec_API.c
+1089 silly gunzTarPerm modified mode [ 'deps/opus/silk/dec_API.c', 436, 438 ]
+1090 silly gunzTarPerm extractEntry deps/opus/silk/decode_core.c
+1091 silly gunzTarPerm modified mode [ 'deps/opus/silk/decode_core.c', 436, 438 ]
+1092 silly gunzTarPerm extractEntry deps/opus/silk/decode_frame.c
+1093 silly gunzTarPerm modified mode [ 'deps/opus/silk/decode_frame.c', 436, 438 ]
+1094 silly gunzTarPerm extractEntry deps/opus/silk/decode_indices.c
+1095 silly gunzTarPerm modified mode [ 'deps/opus/silk/decode_indices.c', 436, 438 ]
+1096 silly gunzTarPerm extractEntry deps/opus/silk/decode_parameters.c
+1097 silly gunzTarPerm modified mode [ 'deps/opus/silk/decode_parameters.c', 436, 438 ]
+1098 silly gunzTarPerm extractEntry deps/opus/silk/decode_pitch.c
+1099 silly gunzTarPerm modified mode [ 'deps/opus/silk/decode_pitch.c', 436, 438 ]
+1100 silly gunzTarPerm extractEntry deps/opus/silk/decode_pulses.c
+1101 silly gunzTarPerm modified mode [ 'deps/opus/silk/decode_pulses.c', 436, 438 ]
+1102 silly gunzTarPerm extractEntry deps/opus/silk/decoder_set_fs.c
+1103 silly gunzTarPerm modified mode [ 'deps/opus/silk/decoder_set_fs.c', 436, 438 ]
+1104 silly gunzTarPerm extractEntry deps/opus/silk/define.h
+1105 silly gunzTarPerm modified mode [ 'deps/opus/silk/define.h', 436, 438 ]
+1106 silly gunzTarPerm extractEntry deps/opus/silk/enc_API.c
+1107 silly gunzTarPerm modified mode [ 'deps/opus/silk/enc_API.c', 436, 438 ]
+1108 silly gunzTarPerm extractEntry deps/opus/silk/encode_indices.c
+1109 silly gunzTarPerm modified mode [ 'deps/opus/silk/encode_indices.c', 436, 438 ]
+1110 silly gunzTarPerm extractEntry deps/opus/silk/encode_pulses.c
+1111 silly gunzTarPerm modified mode [ 'deps/opus/silk/encode_pulses.c', 436, 438 ]
+1112 silly gunzTarPerm extractEntry deps/opus/silk/API.h
+1113 silly gunzTarPerm modified mode [ 'deps/opus/silk/API.h', 436, 438 ]
+1114 silly gunzTarPerm extractEntry deps/opus/silk/fixed/mips/noise_shape_analysis_FIX_mipsr1.h
+1115 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/mips/noise_shape_analysis_FIX_mipsr1.h',
+1115 silly gunzTarPerm   436,
+1115 silly gunzTarPerm   438 ]
+1116 silly gunzTarPerm extractEntry deps/opus/silk/fixed/mips/prefilter_FIX_mipsr1.h
+1117 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/mips/prefilter_FIX_mipsr1.h', 436, 438 ]
+1118 silly gunzTarPerm extractEntry deps/opus/silk/fixed/mips/warped_autocorrelation_FIX_mipsr1.h
+1119 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/mips/warped_autocorrelation_FIX_mipsr1.h',
+1119 silly gunzTarPerm   436,
+1119 silly gunzTarPerm   438 ]
+1120 silly gunzTarPerm extractEntry deps/opus/silk/fixed/LTP_analysis_filter_FIX.c
+1121 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/LTP_analysis_filter_FIX.c', 436, 438 ]
+1122 silly gunzTarPerm extractEntry deps/opus/silk/fixed/apply_sine_window_FIX.c
+1123 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/apply_sine_window_FIX.c', 436, 438 ]
+1124 silly gunzTarPerm extractEntry deps/opus/silk/fixed/autocorr_FIX.c
+1125 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/autocorr_FIX.c', 436, 438 ]
+1126 silly gunzTarPerm extractEntry deps/opus/silk/fixed/burg_modified_FIX.c
+1127 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/burg_modified_FIX.c', 436, 438 ]
+1128 silly gunzTarPerm extractEntry deps/opus/silk/fixed/corrMatrix_FIX.c
+1129 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/corrMatrix_FIX.c', 436, 438 ]
+1130 silly gunzTarPerm extractEntry deps/opus/silk/fixed/encode_frame_FIX.c
+1131 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/encode_frame_FIX.c', 436, 438 ]
+1132 silly gunzTarPerm extractEntry deps/opus/silk/fixed/find_LPC_FIX.c
+1133 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/find_LPC_FIX.c', 436, 438 ]
+1134 silly gunzTarPerm extractEntry deps/opus/silk/fixed/find_LTP_FIX.c
+1135 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/find_LTP_FIX.c', 436, 438 ]
+1136 silly gunzTarPerm extractEntry deps/opus/silk/fixed/find_pitch_lags_FIX.c
+1137 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/find_pitch_lags_FIX.c', 436, 438 ]
+1138 silly gunzTarPerm extractEntry deps/opus/silk/fixed/find_pred_coefs_FIX.c
+1139 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/find_pred_coefs_FIX.c', 436, 438 ]
+1140 silly gunzTarPerm extractEntry deps/opus/silk/fixed/k2a_FIX.c
+1141 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/k2a_FIX.c', 436, 438 ]
+1142 silly gunzTarPerm extractEntry deps/opus/silk/fixed/k2a_Q16_FIX.c
+1143 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/k2a_Q16_FIX.c', 436, 438 ]
+1144 silly gunzTarPerm extractEntry deps/opus/silk/fixed/main_FIX.h
+1145 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/main_FIX.h', 436, 438 ]
+1146 silly gunzTarPerm extractEntry deps/opus/silk/fixed/LTP_scale_ctrl_FIX.c
+1147 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/LTP_scale_ctrl_FIX.c', 436, 438 ]
+1148 silly gunzTarPerm extractEntry deps/opus/silk/fixed/noise_shape_analysis_FIX.c
+1149 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/noise_shape_analysis_FIX.c', 436, 438 ]
+1150 silly gunzTarPerm extractEntry deps/opus/silk/fixed/pitch_analysis_core_FIX.c
+1151 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/pitch_analysis_core_FIX.c', 436, 438 ]
+1152 silly gunzTarPerm extractEntry deps/opus/silk/fixed/prefilter_FIX.c
+1153 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/prefilter_FIX.c', 436, 438 ]
+1154 silly gunzTarPerm extractEntry deps/opus/silk/fixed/process_gains_FIX.c
+1155 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/process_gains_FIX.c', 436, 438 ]
+1156 silly gunzTarPerm extractEntry deps/opus/silk/fixed/regularize_correlations_FIX.c
+1157 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/regularize_correlations_FIX.c',
+1157 silly gunzTarPerm   436,
+1157 silly gunzTarPerm   438 ]
+1158 silly gunzTarPerm extractEntry deps/opus/silk/fixed/residual_energy16_FIX.c
+1159 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/residual_energy16_FIX.c', 436, 438 ]
+1160 silly gunzTarPerm extractEntry deps/opus/silk/fixed/residual_energy_FIX.c
+1161 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/residual_energy_FIX.c', 436, 438 ]
+1162 silly gunzTarPerm extractEntry deps/opus/silk/fixed/schur64_FIX.c
+1163 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/schur64_FIX.c', 436, 438 ]
+1164 silly gunzTarPerm extractEntry deps/opus/silk/fixed/schur_FIX.c
+1165 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/schur_FIX.c', 436, 438 ]
+1166 silly gunzTarPerm extractEntry deps/opus/silk/fixed/solve_LS_FIX.c
+1167 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/solve_LS_FIX.c', 436, 438 ]
+1168 silly gunzTarPerm extractEntry deps/opus/silk/fixed/structs_FIX.h
+1169 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/structs_FIX.h', 436, 438 ]
+1170 silly gunzTarPerm extractEntry deps/opus/silk/fixed/vector_ops_FIX.c
+1171 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/vector_ops_FIX.c', 436, 438 ]
+1172 silly gunzTarPerm extractEntry deps/opus/silk/fixed/warped_autocorrelation_FIX.c
+1173 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/warped_autocorrelation_FIX.c', 436, 438 ]
+1174 silly gunzTarPerm extractEntry deps/opus/silk/fixed/x86/burg_modified_FIX_sse.c
+1175 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/x86/burg_modified_FIX_sse.c', 436, 438 ]
+1176 silly gunzTarPerm extractEntry deps/opus/silk/fixed/x86/prefilter_FIX_sse.c
+1177 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/x86/prefilter_FIX_sse.c', 436, 438 ]
+1178 silly gunzTarPerm extractEntry deps/opus/silk/fixed/x86/vector_ops_FIX_sse.c
+1179 silly gunzTarPerm modified mode [ 'deps/opus/silk/fixed/x86/vector_ops_FIX_sse.c', 436, 438 ]
+1180 silly gunzTarPerm extractEntry deps/opus/silk/float/k2a_FLP.c
+1181 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/k2a_FLP.c', 436, 438 ]
+1182 silly gunzTarPerm extractEntry deps/opus/silk/float/LPC_analysis_filter_FLP.c
+1183 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/LPC_analysis_filter_FLP.c', 436, 438 ]
+1184 silly gunzTarPerm extractEntry deps/opus/silk/float/LTP_analysis_filter_FLP.c
+1185 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/LTP_analysis_filter_FLP.c', 436, 438 ]
+1186 silly gunzTarPerm extractEntry deps/opus/silk/float/LTP_scale_ctrl_FLP.c
+1187 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/LTP_scale_ctrl_FLP.c', 436, 438 ]
+1188 silly gunzTarPerm extractEntry deps/opus/silk/float/SigProc_FLP.h
+1189 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/SigProc_FLP.h', 436, 438 ]
+1190 silly gunzTarPerm extractEntry deps/opus/silk/float/apply_sine_window_FLP.c
+1191 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/apply_sine_window_FLP.c', 436, 438 ]
+1192 silly gunzTarPerm extractEntry deps/opus/silk/float/autocorrelation_FLP.c
+1193 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/autocorrelation_FLP.c', 436, 438 ]
+1194 silly gunzTarPerm extractEntry deps/opus/silk/float/burg_modified_FLP.c
+1195 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/burg_modified_FLP.c', 436, 438 ]
+1196 silly gunzTarPerm extractEntry deps/opus/silk/float/bwexpander_FLP.c
+1197 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/bwexpander_FLP.c', 436, 438 ]
+1198 silly gunzTarPerm extractEntry deps/opus/silk/float/corrMatrix_FLP.c
+1199 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/corrMatrix_FLP.c', 436, 438 ]
+1200 silly gunzTarPerm extractEntry deps/opus/silk/float/encode_frame_FLP.c
+1201 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/encode_frame_FLP.c', 436, 438 ]
+1202 silly gunzTarPerm extractEntry deps/opus/silk/float/energy_FLP.c
+1203 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/energy_FLP.c', 436, 438 ]
+1204 silly gunzTarPerm extractEntry deps/opus/silk/float/find_LPC_FLP.c
+1205 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/find_LPC_FLP.c', 436, 438 ]
+1206 silly gunzTarPerm extractEntry deps/opus/silk/float/find_LTP_FLP.c
+1207 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/find_LTP_FLP.c', 436, 438 ]
+1208 silly gunzTarPerm extractEntry deps/opus/silk/float/find_pitch_lags_FLP.c
+1209 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/find_pitch_lags_FLP.c', 436, 438 ]
+1210 silly gunzTarPerm extractEntry deps/opus/silk/float/find_pred_coefs_FLP.c
+1211 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/find_pred_coefs_FLP.c', 436, 438 ]
+1212 silly gunzTarPerm extractEntry deps/opus/silk/float/inner_product_FLP.c
+1213 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/inner_product_FLP.c', 436, 438 ]
+1214 silly gunzTarPerm extractEntry deps/opus/silk/float/LPC_inv_pred_gain_FLP.c
+1215 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/LPC_inv_pred_gain_FLP.c', 436, 438 ]
+1216 silly gunzTarPerm extractEntry deps/opus/silk/float/levinsondurbin_FLP.c
+1217 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/levinsondurbin_FLP.c', 436, 438 ]
+1218 silly gunzTarPerm extractEntry deps/opus/silk/float/main_FLP.h
+1219 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/main_FLP.h', 436, 438 ]
+1220 silly gunzTarPerm extractEntry deps/opus/silk/float/noise_shape_analysis_FLP.c
+1221 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/noise_shape_analysis_FLP.c', 436, 438 ]
+1222 silly gunzTarPerm extractEntry deps/opus/silk/float/pitch_analysis_core_FLP.c
+1223 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/pitch_analysis_core_FLP.c', 436, 438 ]
+1224 silly gunzTarPerm extractEntry deps/opus/silk/float/prefilter_FLP.c
+1225 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/prefilter_FLP.c', 436, 438 ]
+1226 silly gunzTarPerm extractEntry deps/opus/silk/float/process_gains_FLP.c
+1227 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/process_gains_FLP.c', 436, 438 ]
+1228 silly gunzTarPerm extractEntry deps/opus/silk/float/regularize_correlations_FLP.c
+1229 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/regularize_correlations_FLP.c',
+1229 silly gunzTarPerm   436,
+1229 silly gunzTarPerm   438 ]
+1230 silly gunzTarPerm extractEntry deps/opus/silk/float/residual_energy_FLP.c
+1231 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/residual_energy_FLP.c', 436, 438 ]
+1232 silly gunzTarPerm extractEntry deps/opus/silk/float/scale_copy_vector_FLP.c
+1233 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/scale_copy_vector_FLP.c', 436, 438 ]
+1234 silly gunzTarPerm extractEntry deps/opus/silk/float/scale_vector_FLP.c
+1235 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/scale_vector_FLP.c', 436, 438 ]
+1236 silly gunzTarPerm extractEntry deps/opus/silk/float/schur_FLP.c
+1237 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/schur_FLP.c', 436, 438 ]
+1238 silly gunzTarPerm extractEntry deps/opus/silk/float/solve_LS_FLP.c
+1239 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/solve_LS_FLP.c', 436, 438 ]
+1240 silly gunzTarPerm extractEntry deps/opus/silk/float/sort_FLP.c
+1241 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/sort_FLP.c', 436, 438 ]
+1242 silly gunzTarPerm extractEntry deps/opus/silk/float/structs_FLP.h
+1243 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/structs_FLP.h', 436, 438 ]
+1244 silly gunzTarPerm extractEntry deps/opus/silk/float/warped_autocorrelation_FLP.c
+1245 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/warped_autocorrelation_FLP.c', 436, 438 ]
+1246 silly gunzTarPerm extractEntry deps/opus/silk/float/wrappers_FLP.c
+1247 silly gunzTarPerm modified mode [ 'deps/opus/silk/float/wrappers_FLP.c', 436, 438 ]
+1248 silly gunzTarPerm extractEntry deps/opus/silk/gain_quant.c
+1249 silly gunzTarPerm modified mode [ 'deps/opus/silk/gain_quant.c', 436, 438 ]
+1250 silly gunzTarPerm extractEntry deps/opus/silk/init_decoder.c
+1251 silly gunzTarPerm modified mode [ 'deps/opus/silk/init_decoder.c', 436, 438 ]
+1252 silly gunzTarPerm extractEntry deps/opus/silk/init_encoder.c
+1253 silly gunzTarPerm modified mode [ 'deps/opus/silk/init_encoder.c', 436, 438 ]
+1254 silly gunzTarPerm extractEntry deps/opus/silk/inner_prod_aligned.c
+1255 silly gunzTarPerm modified mode [ 'deps/opus/silk/inner_prod_aligned.c', 436, 438 ]
+1256 silly gunzTarPerm extractEntry deps/opus/silk/interpolate.c
+1257 silly gunzTarPerm modified mode [ 'deps/opus/silk/interpolate.c', 436, 438 ]
+1258 silly gunzTarPerm extractEntry deps/opus/silk/lin2log.c
+1259 silly gunzTarPerm modified mode [ 'deps/opus/silk/lin2log.c', 436, 438 ]
+1260 silly gunzTarPerm extractEntry deps/opus/silk/log2lin.c
+1261 silly gunzTarPerm modified mode [ 'deps/opus/silk/log2lin.c', 436, 438 ]
+1262 silly gunzTarPerm extractEntry deps/opus/silk/macros.h
+1263 silly gunzTarPerm modified mode [ 'deps/opus/silk/macros.h', 436, 438 ]
+1264 silly gunzTarPerm extractEntry deps/opus/silk/main.h
+1265 silly gunzTarPerm modified mode [ 'deps/opus/silk/main.h', 436, 438 ]
+1266 silly gunzTarPerm extractEntry deps/opus/silk/mips/NSQ_del_dec_mipsr1.h
+1267 silly gunzTarPerm modified mode [ 'deps/opus/silk/mips/NSQ_del_dec_mipsr1.h', 436, 438 ]
+1268 silly gunzTarPerm extractEntry deps/opus/silk/mips/macros_mipsr1.h
+1269 silly gunzTarPerm modified mode [ 'deps/opus/silk/mips/macros_mipsr1.h', 436, 438 ]
+1270 silly gunzTarPerm extractEntry deps/opus/silk/mips/sigproc_fix_mipsr1.h
+1271 silly gunzTarPerm modified mode [ 'deps/opus/silk/mips/sigproc_fix_mipsr1.h', 436, 438 ]
+1272 silly gunzTarPerm extractEntry deps/opus/silk/pitch_est_defines.h
+1273 silly gunzTarPerm modified mode [ 'deps/opus/silk/pitch_est_defines.h', 436, 438 ]
+1274 silly gunzTarPerm extractEntry deps/opus/silk/pitch_est_tables.c
+1275 silly gunzTarPerm modified mode [ 'deps/opus/silk/pitch_est_tables.c', 436, 438 ]
+1276 silly gunzTarPerm extractEntry deps/opus/silk/process_NLSFs.c
+1277 silly gunzTarPerm modified mode [ 'deps/opus/silk/process_NLSFs.c', 436, 438 ]
+1278 silly gunzTarPerm extractEntry deps/opus/silk/quant_LTP_gains.c
+1279 silly gunzTarPerm modified mode [ 'deps/opus/silk/quant_LTP_gains.c', 436, 438 ]
+1280 silly gunzTarPerm extractEntry deps/opus/silk/resampler.c
+1281 silly gunzTarPerm modified mode [ 'deps/opus/silk/resampler.c', 436, 438 ]
+1282 silly gunzTarPerm extractEntry deps/opus/silk/resampler_down2.c
+1283 silly gunzTarPerm modified mode [ 'deps/opus/silk/resampler_down2.c', 436, 438 ]
+1284 silly gunzTarPerm extractEntry deps/opus/silk/resampler_down2_3.c
+1285 silly gunzTarPerm modified mode [ 'deps/opus/silk/resampler_down2_3.c', 436, 438 ]
+1286 silly gunzTarPerm extractEntry deps/opus/silk/resampler_private.h
+1287 silly gunzTarPerm modified mode [ 'deps/opus/silk/resampler_private.h', 436, 438 ]
+1288 silly gunzTarPerm extractEntry deps/opus/silk/resampler_private_AR2.c
+1289 silly gunzTarPerm modified mode [ 'deps/opus/silk/resampler_private_AR2.c', 436, 438 ]
+1290 silly gunzTarPerm extractEntry deps/opus/silk/resampler_private_IIR_FIR.c
+1291 silly gunzTarPerm modified mode [ 'deps/opus/silk/resampler_private_IIR_FIR.c', 436, 438 ]
+1292 silly gunzTarPerm extractEntry deps/opus/silk/resampler_private_down_FIR.c
+1293 silly gunzTarPerm modified mode [ 'deps/opus/silk/resampler_private_down_FIR.c', 436, 438 ]
+1294 silly gunzTarPerm extractEntry deps/opus/silk/resampler_private_up2_HQ.c
+1295 silly gunzTarPerm modified mode [ 'deps/opus/silk/resampler_private_up2_HQ.c', 436, 438 ]
+1296 silly gunzTarPerm extractEntry deps/opus/silk/resampler_rom.c
+1297 silly gunzTarPerm modified mode [ 'deps/opus/silk/resampler_rom.c', 436, 438 ]
+1298 silly gunzTarPerm extractEntry deps/opus/silk/resampler_rom.h
+1299 silly gunzTarPerm modified mode [ 'deps/opus/silk/resampler_rom.h', 436, 438 ]
+1300 silly gunzTarPerm extractEntry deps/opus/silk/resampler_structs.h
+1301 silly gunzTarPerm modified mode [ 'deps/opus/silk/resampler_structs.h', 436, 438 ]
+1302 silly gunzTarPerm extractEntry deps/opus/silk/shell_coder.c
+1303 silly gunzTarPerm modified mode [ 'deps/opus/silk/shell_coder.c', 436, 438 ]
+1304 silly gunzTarPerm extractEntry deps/opus/silk/sigm_Q15.c
+1305 silly gunzTarPerm modified mode [ 'deps/opus/silk/sigm_Q15.c', 436, 438 ]
+1306 silly gunzTarPerm extractEntry deps/opus/silk/sort.c
+1307 silly gunzTarPerm modified mode [ 'deps/opus/silk/sort.c', 436, 438 ]
+1308 silly gunzTarPerm extractEntry deps/opus/silk/stereo_LR_to_MS.c
+1309 silly gunzTarPerm modified mode [ 'deps/opus/silk/stereo_LR_to_MS.c', 436, 438 ]
+1310 silly gunzTarPerm extractEntry deps/opus/silk/stereo_MS_to_LR.c
+1311 silly gunzTarPerm modified mode [ 'deps/opus/silk/stereo_MS_to_LR.c', 436, 438 ]
+1312 silly gunzTarPerm extractEntry deps/opus/silk/stereo_decode_pred.c
+1313 silly gunzTarPerm modified mode [ 'deps/opus/silk/stereo_decode_pred.c', 436, 438 ]
+1314 silly gunzTarPerm extractEntry deps/opus/silk/stereo_encode_pred.c
+1315 silly gunzTarPerm modified mode [ 'deps/opus/silk/stereo_encode_pred.c', 436, 438 ]
+1316 silly gunzTarPerm extractEntry deps/opus/silk/stereo_find_predictor.c
+1317 silly gunzTarPerm modified mode [ 'deps/opus/silk/stereo_find_predictor.c', 436, 438 ]
+1318 silly gunzTarPerm extractEntry deps/opus/silk/stereo_quant_pred.c
+1319 silly gunzTarPerm modified mode [ 'deps/opus/silk/stereo_quant_pred.c', 436, 438 ]
+1320 silly gunzTarPerm extractEntry deps/opus/silk/structs.h
+1321 silly gunzTarPerm modified mode [ 'deps/opus/silk/structs.h', 436, 438 ]
+1322 silly gunzTarPerm extractEntry deps/opus/silk/sum_sqr_shift.c
+1323 silly gunzTarPerm modified mode [ 'deps/opus/silk/sum_sqr_shift.c', 436, 438 ]
+1324 silly gunzTarPerm extractEntry deps/opus/silk/table_LSF_cos.c
+1325 silly gunzTarPerm modified mode [ 'deps/opus/silk/table_LSF_cos.c', 436, 438 ]
+1326 silly gunzTarPerm extractEntry deps/opus/silk/tables.h
+1327 silly gunzTarPerm modified mode [ 'deps/opus/silk/tables.h', 436, 438 ]
+1328 silly gunzTarPerm extractEntry deps/opus/silk/tables_LTP.c
+1329 silly gunzTarPerm modified mode [ 'deps/opus/silk/tables_LTP.c', 436, 438 ]
+1330 silly gunzTarPerm extractEntry deps/opus/silk/tables_NLSF_CB_NB_MB.c
+1331 silly gunzTarPerm modified mode [ 'deps/opus/silk/tables_NLSF_CB_NB_MB.c', 436, 438 ]
+1332 silly gunzTarPerm extractEntry deps/opus/silk/tables_NLSF_CB_WB.c
+1333 silly gunzTarPerm modified mode [ 'deps/opus/silk/tables_NLSF_CB_WB.c', 436, 438 ]
+1334 silly gunzTarPerm extractEntry deps/opus/silk/tables_gain.c
+1335 silly gunzTarPerm modified mode [ 'deps/opus/silk/tables_gain.c', 436, 438 ]
+1336 silly gunzTarPerm extractEntry deps/opus/silk/tables_other.c
+1337 silly gunzTarPerm modified mode [ 'deps/opus/silk/tables_other.c', 436, 438 ]
+1338 silly gunzTarPerm extractEntry deps/opus/silk/tables_pitch_lag.c
+1339 silly gunzTarPerm modified mode [ 'deps/opus/silk/tables_pitch_lag.c', 436, 438 ]
+1340 silly gunzTarPerm extractEntry deps/opus/silk/tables_pulses_per_block.c
+1341 silly gunzTarPerm modified mode [ 'deps/opus/silk/tables_pulses_per_block.c', 436, 438 ]
+1342 silly gunzTarPerm extractEntry deps/opus/silk/tuning_parameters.h
+1343 silly gunzTarPerm modified mode [ 'deps/opus/silk/tuning_parameters.h', 436, 438 ]
+1344 silly gunzTarPerm extractEntry deps/opus/silk/typedef.h
+1345 silly gunzTarPerm modified mode [ 'deps/opus/silk/typedef.h', 436, 438 ]
+1346 silly gunzTarPerm extractEntry deps/opus/silk/x86/NSQ_del_dec_sse.c
+1347 silly gunzTarPerm modified mode [ 'deps/opus/silk/x86/NSQ_del_dec_sse.c', 436, 438 ]
+1348 silly gunzTarPerm extractEntry deps/opus/silk/x86/NSQ_sse.c
+1349 silly gunzTarPerm modified mode [ 'deps/opus/silk/x86/NSQ_sse.c', 436, 438 ]
+1350 silly gunzTarPerm extractEntry deps/opus/silk/x86/SigProc_FIX_sse.h
+1351 silly gunzTarPerm modified mode [ 'deps/opus/silk/x86/SigProc_FIX_sse.h', 436, 438 ]
+1352 silly gunzTarPerm extractEntry deps/opus/silk/x86/VAD_sse.c
+1353 silly gunzTarPerm modified mode [ 'deps/opus/silk/x86/VAD_sse.c', 436, 438 ]
+1354 silly gunzTarPerm extractEntry deps/opus/silk/x86/VQ_WMat_EC_sse.c
+1355 silly gunzTarPerm modified mode [ 'deps/opus/silk/x86/VQ_WMat_EC_sse.c', 436, 438 ]
+1356 silly gunzTarPerm extractEntry deps/opus/silk/x86/main_sse.h
+1357 silly gunzTarPerm modified mode [ 'deps/opus/silk/x86/main_sse.h', 436, 438 ]
+1358 silly gunzTarPerm extractEntry deps/opus/silk/x86/x86_silk_map.c
+1359 silly gunzTarPerm modified mode [ 'deps/opus/silk/x86/x86_silk_map.c', 436, 438 ]
+1360 silly gunzTarPerm extractEntry deps/opus/silk_headers.mk
+1361 silly gunzTarPerm modified mode [ 'deps/opus/silk_headers.mk', 436, 438 ]
+1362 silly gunzTarPerm extractEntry deps/opus/silk_sources.mk
+1363 silly gunzTarPerm modified mode [ 'deps/opus/silk_sources.mk', 436, 438 ]
+1364 silly gunzTarPerm extractEntry deps/opus/src/opus_demo.c
+1365 silly gunzTarPerm modified mode [ 'deps/opus/src/opus_demo.c', 436, 438 ]
+1366 silly gunzTarPerm extractEntry deps/opus/src/analysis.c
+1367 silly gunzTarPerm modified mode [ 'deps/opus/src/analysis.c', 436, 438 ]
+1368 silly gunzTarPerm extractEntry deps/opus/src/mlp.c
+1369 silly gunzTarPerm modified mode [ 'deps/opus/src/mlp.c', 436, 438 ]
+1370 silly gunzTarPerm extractEntry deps/opus/src/mlp.h
+1371 silly gunzTarPerm modified mode [ 'deps/opus/src/mlp.h', 436, 438 ]
+1372 silly gunzTarPerm extractEntry deps/opus/src/mlp_data.c
+1373 silly gunzTarPerm modified mode [ 'deps/opus/src/mlp_data.c', 436, 438 ]
+1374 silly gunzTarPerm extractEntry deps/opus/src/opus.c
+1375 silly gunzTarPerm modified mode [ 'deps/opus/src/opus.c', 436, 438 ]
+1376 silly gunzTarPerm extractEntry deps/opus/src/opus_compare.c
+1377 silly gunzTarPerm modified mode [ 'deps/opus/src/opus_compare.c', 436, 438 ]
+1378 silly gunzTarPerm extractEntry deps/opus/src/opus_decoder.c
+1379 silly gunzTarPerm modified mode [ 'deps/opus/src/opus_decoder.c', 436, 438 ]
+1380 silly gunzTarPerm extractEntry deps/opus/src/analysis.h
+1381 silly gunzTarPerm modified mode [ 'deps/opus/src/analysis.h', 436, 438 ]
+1382 silly gunzTarPerm extractEntry deps/opus/src/opus_encoder.c
+1383 silly gunzTarPerm modified mode [ 'deps/opus/src/opus_encoder.c', 436, 438 ]
+1384 silly gunzTarPerm extractEntry deps/opus/src/opus_multistream.c
+1385 silly gunzTarPerm modified mode [ 'deps/opus/src/opus_multistream.c', 436, 438 ]
+1386 silly gunzTarPerm extractEntry deps/opus/src/opus_multistream_decoder.c
+1387 silly gunzTarPerm modified mode [ 'deps/opus/src/opus_multistream_decoder.c', 436, 438 ]
+1388 silly gunzTarPerm extractEntry deps/opus/src/opus_multistream_encoder.c
+1389 silly gunzTarPerm modified mode [ 'deps/opus/src/opus_multistream_encoder.c', 436, 438 ]
+1390 silly gunzTarPerm extractEntry deps/opus/src/opus_private.h
+1391 silly gunzTarPerm modified mode [ 'deps/opus/src/opus_private.h', 436, 438 ]
+1392 silly gunzTarPerm extractEntry deps/opus/src/repacketizer.c
+1393 silly gunzTarPerm modified mode [ 'deps/opus/src/repacketizer.c', 436, 438 ]
+1394 silly gunzTarPerm extractEntry deps/opus/src/repacketizer_demo.c
+1395 silly gunzTarPerm modified mode [ 'deps/opus/src/repacketizer_demo.c', 436, 438 ]
+1396 silly gunzTarPerm extractEntry deps/opus/src/tansig_table.h
+1397 silly gunzTarPerm modified mode [ 'deps/opus/src/tansig_table.h', 436, 438 ]
+1398 silly gunzTarPerm extractEntry deps/opus/test-driver
+1399 silly gunzTarPerm modified mode [ 'deps/opus/test-driver', 493, 511 ]
+1400 silly gunzTarPerm extractEntry deps/opus/tests/run_vectors.sh
+1401 silly gunzTarPerm modified mode [ 'deps/opus/tests/run_vectors.sh', 509, 511 ]
+1402 silly gunzTarPerm extractEntry deps/opus/tests/test_opus_api.c
+1403 silly gunzTarPerm modified mode [ 'deps/opus/tests/test_opus_api.c', 436, 438 ]
+1404 silly gunzTarPerm extractEntry deps/opus/tests/test_opus_common.h
+1405 silly gunzTarPerm modified mode [ 'deps/opus/tests/test_opus_common.h', 436, 438 ]
+1406 silly gunzTarPerm extractEntry deps/opus/tests/test_opus_decode.c
+1407 silly gunzTarPerm modified mode [ 'deps/opus/tests/test_opus_decode.c', 436, 438 ]
+1408 silly gunzTarPerm extractEntry deps/opus/tests/test_opus_encode.c
+1409 silly gunzTarPerm modified mode [ 'deps/opus/tests/test_opus_encode.c', 436, 438 ]
+1410 silly gunzTarPerm extractEntry deps/opus/tests/test_opus_padding.c
+1411 silly gunzTarPerm modified mode [ 'deps/opus/tests/test_opus_padding.c', 436, 438 ]
+1412 silly gunzTarPerm extractEntry deps/opus/version.mk
+1413 silly gunzTarPerm modified mode [ 'deps/opus/version.mk', 436, 438 ]
+1414 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/silk_fixed.vcxproj
+1415 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/silk_fixed.vcxproj', 436, 438 ]
+1416 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/celt.vcxproj
+1417 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/celt.vcxproj', 436, 438 ]
+1418 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/opus.sln
+1419 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/opus.sln', 436, 438 ]
+1420 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/opus.vcxproj
+1421 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/opus.vcxproj', 436, 438 ]
+1422 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/opus.vcxproj.filters
+1423 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/opus.vcxproj.filters', 436, 438 ]
+1424 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/opus_demo.vcxproj
+1425 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/opus_demo.vcxproj', 436, 438 ]
+1426 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/opus_demo.vcxproj.filters
+1427 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/opus_demo.vcxproj.filters', 436, 438 ]
+1428 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/silk_common.vcxproj
+1429 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/silk_common.vcxproj', 436, 438 ]
+1430 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/silk_common.vcxproj.filters
+1431 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/silk_common.vcxproj.filters',
+1431 silly gunzTarPerm   436,
+1431 silly gunzTarPerm   438 ]
+1432 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/celt.vcxproj.filters
+1433 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/celt.vcxproj.filters', 436, 438 ]
+1434 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/silk_fixed.vcxproj.filters
+1435 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/silk_fixed.vcxproj.filters', 436, 438 ]
+1436 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/silk_float.vcxproj
+1437 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/silk_float.vcxproj', 436, 438 ]
+1438 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/silk_float.vcxproj.filters
+1439 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/silk_float.vcxproj.filters', 436, 438 ]
+1440 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/test_opus_api.vcxproj
+1441 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/test_opus_api.vcxproj', 436, 438 ]
+1442 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/test_opus_api.vcxproj.filters
+1443 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/test_opus_api.vcxproj.filters',
+1443 silly gunzTarPerm   436,
+1443 silly gunzTarPerm   438 ]
+1444 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/test_opus_decode.vcxproj
+1445 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/test_opus_decode.vcxproj', 436, 438 ]
+1446 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/test_opus_decode.vcxproj.filters
+1447 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/test_opus_decode.vcxproj.filters',
+1447 silly gunzTarPerm   436,
+1447 silly gunzTarPerm   438 ]
+1448 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/test_opus_encode.vcxproj
+1449 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/test_opus_encode.vcxproj', 436, 438 ]
+1450 silly gunzTarPerm extractEntry deps/opus/win32/VS2010/test_opus_encode.vcxproj.filters
+1451 silly gunzTarPerm modified mode [ 'deps/opus/win32/VS2010/test_opus_encode.vcxproj.filters',
+1451 silly gunzTarPerm   436,
+1451 silly gunzTarPerm   438 ]
+1452 silly gunzTarPerm extractEntry deps/opus/win32/config.h
+1453 silly gunzTarPerm modified mode [ 'deps/opus/win32/config.h', 436, 438 ]
+1454 silly gunzTarPerm extractEntry deps/opus/win32/genversion.bat
+1455 silly gunzTarPerm modified mode [ 'deps/opus/win32/genversion.bat', 436, 438 ]
+1456 silly gunzTarPerm extractEntry examples/mp3-to-ogg.js
+1457 silly gunzTarPerm modified mode [ 'examples/mp3-to-ogg.js', 436, 438 ]
+1458 silly gunzTarPerm extractEntry examples/stream-to-alsa.js
+1459 silly gunzTarPerm modified mode [ 'examples/stream-to-alsa.js', 436, 438 ]
+1460 silly gunzTarPerm extractEntry lib/Decoder.js
+1461 silly gunzTarPerm modified mode [ 'lib/Decoder.js', 436, 438 ]
+1462 silly gunzTarPerm extractEntry lib/Encoder.js
+1463 silly gunzTarPerm modified mode [ 'lib/Encoder.js', 436, 438 ]
+1464 silly gunzTarPerm extractEntry lib/OpusEncoder.js
+1465 silly gunzTarPerm modified mode [ 'lib/OpusEncoder.js', 436, 438 ]
+1466 silly gunzTarPerm extractEntry package-lock.json
+1467 silly gunzTarPerm modified mode [ 'package-lock.json', 436, 438 ]
+1468 silly gunzTarPerm extractEntry src/common.h
+1469 silly gunzTarPerm modified mode [ 'src/common.h', 436, 438 ]
+1470 silly gunzTarPerm extractEntry src/node-opus.cc
+1471 silly gunzTarPerm modified mode [ 'src/node-opus.cc', 436, 438 ]
+1472 silly gunzTarPerm extractEntry test/Decoder.js
+1473 silly gunzTarPerm modified mode [ 'test/Decoder.js', 436, 438 ]
+1474 silly gunzTarPerm extractEntry test/Encoder.js
+1475 silly gunzTarPerm modified mode [ 'test/Encoder.js', 436, 438 ]
+1476 silly gunzTarPerm extractEntry test/data/README.md
+1477 silly gunzTarPerm modified mode [ 'test/data/README.md', 436, 438 ]
+1478 silly gunzTarPerm extractEntry test/data/sine.raw
+1479 silly gunzTarPerm modified mode [ 'test/data/sine.raw', 436, 438 ]
+1480 silly gunzTarPerm extractEntry test/data/random-48000-1-20-48000-1.raw
+1481 silly gunzTarPerm modified mode [ 'test/data/random-48000-1-20-48000-1.raw', 436, 438 ]
+1482 silly gunzTarPerm extractEntry test/data/random-48000-1-20-48000-2.raw
+1483 silly gunzTarPerm modified mode [ 'test/data/random-48000-1-20-48000-2.raw', 436, 438 ]
+1484 silly gunzTarPerm extractEntry test/data/random-48000-1-20-8000-1.raw
+1485 silly gunzTarPerm modified mode [ 'test/data/random-48000-1-20-8000-1.raw', 436, 438 ]
+1486 silly gunzTarPerm extractEntry test/data/random-48000-1-20-8000-2.raw
+1487 silly gunzTarPerm modified mode [ 'test/data/random-48000-1-20-8000-2.raw', 436, 438 ]
+1488 silly gunzTarPerm extractEntry test/data/random-48000-2-20-48000-1.raw
+1489 silly gunzTarPerm modified mode [ 'test/data/random-48000-2-20-48000-1.raw', 436, 438 ]
+1490 silly gunzTarPerm extractEntry test/data/random-48000-2-20-48000-2.raw
+1491 silly gunzTarPerm modified mode [ 'test/data/random-48000-2-20-48000-2.raw', 436, 438 ]
+1492 silly gunzTarPerm extractEntry test/data/random-48000-2-20-8000-1.raw
+1493 silly gunzTarPerm modified mode [ 'test/data/random-48000-2-20-8000-1.raw', 436, 438 ]
+1494 silly gunzTarPerm extractEntry test/data/random-48000-2-20-8000-2.raw
+1495 silly gunzTarPerm modified mode [ 'test/data/random-48000-2-20-8000-2.raw', 436, 438 ]
+1496 silly gunzTarPerm extractEntry test/data/random-8000-1-20-48000-1.raw
+1497 silly gunzTarPerm modified mode [ 'test/data/random-8000-1-20-48000-1.raw', 436, 438 ]
+1498 silly gunzTarPerm extractEntry test/data/random-8000-1-20-48000-2.raw
+1499 silly gunzTarPerm modified mode [ 'test/data/random-8000-1-20-48000-2.raw', 436, 438 ]
+1500 silly gunzTarPerm extractEntry test/data/random-8000-1-20-8000-1.raw
+1501 silly gunzTarPerm modified mode [ 'test/data/random-8000-1-20-8000-1.raw', 436, 438 ]
+1502 silly gunzTarPerm extractEntry test/data/random-8000-1-20-8000-2.raw
+1503 silly gunzTarPerm modified mode [ 'test/data/random-8000-1-20-8000-2.raw', 436, 438 ]
+1504 silly gunzTarPerm extractEntry test/data/random-8000-2-20-48000-1.raw
+1505 silly gunzTarPerm modified mode [ 'test/data/random-8000-2-20-48000-1.raw', 436, 438 ]
+1506 silly gunzTarPerm extractEntry test/data/random-8000-2-20-48000-2.raw
+1507 silly gunzTarPerm modified mode [ 'test/data/random-8000-2-20-48000-2.raw', 436, 438 ]
+1508 silly gunzTarPerm extractEntry test/data/random-8000-2-20-8000-1.raw
+1509 silly gunzTarPerm modified mode [ 'test/data/random-8000-2-20-8000-1.raw', 436, 438 ]
+1510 silly gunzTarPerm extractEntry test/data/random-8000-2-20-8000-2.raw
+1511 silly gunzTarPerm modified mode [ 'test/data/random-8000-2-20-8000-2.raw', 436, 438 ]
+1512 silly gunzTarPerm extractEntry test/data/generate_audio.sh
+1513 silly gunzTarPerm modified mode [ 'test/data/generate_audio.sh', 436, 438 ]
+1514 silly gunzTarPerm extractEntry test/data/sine-48000-1-20-48000-1.raw
+1515 silly gunzTarPerm modified mode [ 'test/data/sine-48000-1-20-48000-1.raw', 436, 438 ]
+1516 silly gunzTarPerm extractEntry test/data/sine-48000-1-20-48000-2.raw
+1517 silly gunzTarPerm modified mode [ 'test/data/sine-48000-1-20-48000-2.raw', 436, 438 ]
+1518 silly gunzTarPerm extractEntry test/data/sine-48000-1-20-8000-1.raw
+1519 silly gunzTarPerm modified mode [ 'test/data/sine-48000-1-20-8000-1.raw', 436, 438 ]
+1520 silly gunzTarPerm extractEntry test/data/sine-48000-1-20-8000-2.raw
+1521 silly gunzTarPerm modified mode [ 'test/data/sine-48000-1-20-8000-2.raw', 436, 438 ]
+1522 silly gunzTarPerm extractEntry test/data/sine-48000-2-20-48000-1.raw
+1523 silly gunzTarPerm modified mode [ 'test/data/sine-48000-2-20-48000-1.raw', 436, 438 ]
+1524 silly gunzTarPerm extractEntry test/data/sine-48000-2-20-48000-2.raw
+1525 silly gunzTarPerm modified mode [ 'test/data/sine-48000-2-20-48000-2.raw', 436, 438 ]
+1526 silly gunzTarPerm extractEntry test/data/sine-48000-2-20-8000-1.raw
+1527 silly gunzTarPerm modified mode [ 'test/data/sine-48000-2-20-8000-1.raw', 436, 438 ]
+1528 silly gunzTarPerm extractEntry test/data/sine-48000-2-20-8000-2.raw
+1529 silly gunzTarPerm modified mode [ 'test/data/sine-48000-2-20-8000-2.raw', 436, 438 ]
+1530 silly gunzTarPerm extractEntry test/data/sine-8000-1-20-48000-1.raw
+1531 silly gunzTarPerm modified mode [ 'test/data/sine-8000-1-20-48000-1.raw', 436, 438 ]
+1532 silly gunzTarPerm extractEntry test/data/sine-8000-1-20-48000-2.raw
+1533 silly gunzTarPerm modified mode [ 'test/data/sine-8000-1-20-48000-2.raw', 436, 438 ]
+1534 silly gunzTarPerm extractEntry test/data/sine-8000-1-20-8000-1.raw
+1535 silly gunzTarPerm modified mode [ 'test/data/sine-8000-1-20-8000-1.raw', 436, 438 ]
+1536 silly gunzTarPerm extractEntry test/data/sine-8000-1-20-8000-2.raw
+1537 silly gunzTarPerm modified mode [ 'test/data/sine-8000-1-20-8000-2.raw', 436, 438 ]
+1538 silly gunzTarPerm extractEntry test/data/sine-8000-2-20-48000-1.raw
+1539 silly gunzTarPerm modified mode [ 'test/data/sine-8000-2-20-48000-1.raw', 436, 438 ]
+1540 silly gunzTarPerm extractEntry test/data/sine-8000-2-20-48000-2.raw
+1541 silly gunzTarPerm modified mode [ 'test/data/sine-8000-2-20-48000-2.raw', 436, 438 ]
+1542 silly gunzTarPerm extractEntry test/data/sine-8000-2-20-8000-1.raw
+1543 silly gunzTarPerm modified mode [ 'test/data/sine-8000-2-20-8000-1.raw', 436, 438 ]
+1544 silly gunzTarPerm extractEntry test/data/sine-8000-2-20-8000-2.raw
+1545 silly gunzTarPerm modified mode [ 'test/data/sine-8000-2-20-8000-2.raw', 436, 438 ]
+1546 silly gunzTarPerm extractEntry test/data/random.raw
+1547 silly gunzTarPerm modified mode [ 'test/data/random.raw', 436, 438 ]
+1548 silly gunzTarPerm extractEntry test/old/app.js
+1549 silly gunzTarPerm modified mode [ 'test/old/app.js', 436, 438 ]
+1550 silly gunzTarPerm extractEntry test/old/decode-file.js
+1551 silly gunzTarPerm modified mode [ 'test/old/decode-file.js', 436, 438 ]
+1552 silly gunzTarPerm extractEntry test/old/encode-file.js
+1553 silly gunzTarPerm modified mode [ 'test/old/encode-file.js', 436, 438 ]
+1554 silly gentlyRm C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\node-opus-f2ff6cb7\node_modules is being purged
+1555 verbose gentlyRm don't care about contents; nuking C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\node-opus-f2ff6cb7\node_modules
+1556 silly doParallel preinstall 6
+1557 silly preinstall bindings@1.2.1 C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\bindings-40f6398d
+1558 info lifecycle bindings@1.2.1~preinstall: bindings@1.2.1
+1559 silly preinstall nan@2.7.0 C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\nan-9958a85a
+1560 info lifecycle nan@2.7.0~preinstall: nan@2.7.0
+1561 silly preinstall ref@1.3.5 C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ref-387bb73a
+1562 info lifecycle ref@1.3.5~preinstall: ref@1.3.5
+1563 silly preinstall ref-struct@1.1.0 C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ref-struct-dd6e99d3
+1564 info lifecycle ref-struct@1.1.0~preinstall: ref-struct@1.1.0
+1565 silly preinstall ogg-packet@1.0.0 C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ogg-packet-d1072e8d
+1566 info lifecycle ogg-packet@1.0.0~preinstall: ogg-packet@1.0.0
+1567 silly preinstall node-opus@0.2.7 C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\node-opus-f2ff6cb7
+1568 info lifecycle node-opus@0.2.7~preinstall: node-opus@0.2.7
+1569 silly lifecycle bindings@1.2.1~preinstall: no script for preinstall, continuing
+1570 silly lifecycle nan@2.7.0~preinstall: no script for preinstall, continuing
+1571 silly lifecycle ref@1.3.5~preinstall: no script for preinstall, continuing
+1572 silly lifecycle ref-struct@1.1.0~preinstall: no script for preinstall, continuing
+1573 silly lifecycle ogg-packet@1.0.0~preinstall: no script for preinstall, continuing
+1574 silly lifecycle node-opus@0.2.7~preinstall: no script for preinstall, continuing
+1575 silly doReverseSerial remove 0
+1576 silly doSerial move 0
+1577 silly doSerial finalize 6
+1578 silly finalize C:\Users\Kieran\Desktop\UberBot\node_modules\bindings
+1579 silly finalize C:\Users\Kieran\Desktop\UberBot\node_modules\nan
+1580 silly finalize C:\Users\Kieran\Desktop\UberBot\node_modules\ref
+1581 silly finalize C:\Users\Kieran\Desktop\UberBot\node_modules\ref-struct
+1582 silly finalize C:\Users\Kieran\Desktop\UberBot\node_modules\ogg-packet
+1583 silly finalize C:\Users\Kieran\Desktop\UberBot\node_modules\node-opus
+1584 silly doSerial build 6
+1585 silly build bindings@1.2.1
+1586 info linkStuff bindings@1.2.1
+1587 silly linkStuff bindings@1.2.1 has C:\Users\Kieran\Desktop\UberBot\node_modules as its parent node_modules
+1588 verbose linkBins bindings@1.2.1
+1589 verbose linkMans bindings@1.2.1
+1590 silly build nan@2.7.0
+1591 info linkStuff nan@2.7.0
+1592 silly linkStuff nan@2.7.0 has C:\Users\Kieran\Desktop\UberBot\node_modules as its parent node_modules
+1593 verbose linkBins nan@2.7.0
+1594 verbose linkMans nan@2.7.0
+1595 silly build ref@1.3.5
+1596 info linkStuff ref@1.3.5
+1597 silly linkStuff ref@1.3.5 has C:\Users\Kieran\Desktop\UberBot\node_modules as its parent node_modules
+1598 verbose linkBins ref@1.3.5
+1599 verbose linkMans ref@1.3.5
+1600 silly build ref-struct@1.1.0
+1601 info linkStuff ref-struct@1.1.0
+1602 silly linkStuff ref-struct@1.1.0 has C:\Users\Kieran\Desktop\UberBot\node_modules as its parent node_modules
+1603 verbose linkBins ref-struct@1.1.0
+1604 verbose linkMans ref-struct@1.1.0
+1605 silly build ogg-packet@1.0.0
+1606 info linkStuff ogg-packet@1.0.0
+1607 silly linkStuff ogg-packet@1.0.0 has C:\Users\Kieran\Desktop\UberBot\node_modules as its parent node_modules
+1608 verbose linkBins ogg-packet@1.0.0
+1609 verbose linkMans ogg-packet@1.0.0
+1610 silly build node-opus@0.2.7
+1611 info linkStuff node-opus@0.2.7
+1612 silly linkStuff node-opus@0.2.7 has C:\Users\Kieran\Desktop\UberBot\node_modules as its parent node_modules
+1613 verbose linkBins node-opus@0.2.7
+1614 verbose linkMans node-opus@0.2.7
+1615 silly doSerial global-link 0
+1616 silly doParallel update-linked 0
+1617 silly doSerial install 6
+1618 silly install bindings@1.2.1 C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\bindings-40f6398d
+1619 info lifecycle bindings@1.2.1~install: bindings@1.2.1
+1620 silly lifecycle bindings@1.2.1~install: no script for install, continuing
+1621 silly install nan@2.7.0 C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\nan-9958a85a
+1622 info lifecycle nan@2.7.0~install: nan@2.7.0
+1623 silly lifecycle nan@2.7.0~install: no script for install, continuing
+1624 silly install ref@1.3.5 C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\ref-387bb73a
+1625 info lifecycle ref@1.3.5~install: ref@1.3.5
+1626 verbose lifecycle ref@1.3.5~install: unsafe-perm in lifecycle true
+1627 verbose lifecycle ref@1.3.5~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\Kieran\Desktop\UberBot\node_modules\ref\node_modules\.bin;C:\Users\Kieran\Desktop\UberBot\node_modules\.bin;setx C:\Users\Kieran\Desktop\NoddaBot - Copy\secret-box\ffmpeg-20170830-2b9fd15-win64-static\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Kieran\AppData\Local\Microsoft\WindowsApps;C:\Users\Kieran\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;C:\Users\Kieran\AppData\Local\GitHubDesktop\bin;C:\ffmpeg-20170830-2b9fd15-win64-static\bin;C:\Program Files\Heroku\bin
+1628 verbose lifecycle ref@1.3.5~install: CWD: C:\Users\Kieran\Desktop\UberBot\node_modules\ref
+1629 silly lifecycle ref@1.3.5~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+1630 silly lifecycle ref@1.3.5~install: Returned: code: 1  signal: null
+1631 info lifecycle ref@1.3.5~install: Failed to exec install script
+1632 silly install node-opus@0.2.7 C:\Users\Kieran\Desktop\UberBot\node_modules\.staging\node-opus-f2ff6cb7
+1633 info lifecycle node-opus@0.2.7~install: node-opus@0.2.7
+1634 verbose lifecycle node-opus@0.2.7~install: unsafe-perm in lifecycle true
+1635 verbose lifecycle node-opus@0.2.7~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\Kieran\Desktop\UberBot\node_modules\node-opus\node_modules\.bin;C:\Users\Kieran\Desktop\UberBot\node_modules\.bin;setx C:\Users\Kieran\Desktop\NoddaBot - Copy\secret-box\ffmpeg-20170830-2b9fd15-win64-static\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Kieran\AppData\Local\Microsoft\WindowsApps;C:\Users\Kieran\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;C:\Users\Kieran\AppData\Local\GitHubDesktop\bin;C:\ffmpeg-20170830-2b9fd15-win64-static\bin;C:\Program Files\Heroku\bin
+1636 verbose lifecycle node-opus@0.2.7~install: CWD: C:\Users\Kieran\Desktop\UberBot\node_modules\node-opus
+1637 silly lifecycle node-opus@0.2.7~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+1638 silly lifecycle node-opus@0.2.7~install: Returned: code: 1  signal: null
+1639 info lifecycle node-opus@0.2.7~install: Failed to exec install script
+1640 verbose unlock done using C:\Users\Kieran\AppData\Roaming\npm-cache\_locks\staging-b13309ceddeaaed2.lock for C:\Users\Kieran\Desktop\UberBot\node_modules\.staging
+1641 silly rollbackFailedOptional Starting
+1642 silly rollbackFailedOptional Finishing
+1643 silly runTopLevelLifecycles Finishing
+1644 silly install printInstalled
+1645 warn discord.js@11.2.1 requires a peer of bufferutil@^3.0.2 but none was installed.
+1646 verbose If you need help, you may report this error at:
+1646 verbose     <https://github.com/npm/npm/issues>
+1647 warn discord.js@11.2.1 requires a peer of erlpack@hammerandchisel/erlpack but none was installed.
+1648 verbose If you need help, you may report this error at:
+1648 verbose     <https://github.com/npm/npm/issues>
+1649 warn discord.js@11.2.1 requires a peer of sodium@^2.0.1 but none was installed.
+1650 verbose If you need help, you may report this error at:
+1650 verbose     <https://github.com/npm/npm/issues>
+1651 warn discord.js@11.2.1 requires a peer of libsodium-wrappers@^0.5.4 but none was installed.
+1652 verbose If you need help, you may report this error at:
+1652 verbose     <https://github.com/npm/npm/issues>
+1653 warn discord.js@11.2.1 requires a peer of uws@^0.14.5 but none was installed.
+1654 verbose If you need help, you may report this error at:
+1654 verbose     <https://github.com/npm/npm/issues>
+1655 warn optional SKIPPING OPTIONAL DEPENDENCY: ref@1.3.5 (node_modules\ref):
+1656 warn optional SKIPPING OPTIONAL DEPENDENCY: ref@1.3.5 install: `node-gyp rebuild`
+1656 warn optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+1657 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+1657 verbose optional Failed at the ref@1.3.5 install script 'node-gyp rebuild'.
+1657 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+1657 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the ref package,
+1657 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+1657 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+1657 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node-gyp rebuild
+1657 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+1657 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs ref
+1657 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+1657 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls ref
+1657 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+1658 verbose stack Error: node-opus@0.2.7 install: `node-gyp rebuild`
+1658 verbose stack Exit status 1
+1658 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+1658 verbose stack     at emitTwo (events.js:106:13)
+1658 verbose stack     at EventEmitter.emit (events.js:191:7)
+1658 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+1658 verbose stack     at emitTwo (events.js:106:13)
+1658 verbose stack     at ChildProcess.emit (events.js:191:7)
+1658 verbose stack     at maybeClose (internal/child_process.js:891:16)
+1658 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+1659 verbose pkgid node-opus@0.2.7
+1660 verbose cwd C:\Users\Kieran\Desktop\UberBot
+1661 error Windows_NT 10.0.15063
+1662 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "node-opus"
+1663 error node v6.11.2
+1664 error npm  v3.10.10
+1665 error code ELIFECYCLE
+1666 error node-opus@0.2.7 install: `node-gyp rebuild`
+1666 error Exit status 1
+1667 error Failed at the node-opus@0.2.7 install script 'node-gyp rebuild'.
+1667 error Make sure you have the latest version of node.js and npm installed.
+1667 error If you do, this is most likely a problem with the node-opus package,
+1667 error not with npm itself.
+1667 error Tell the author that this fails on your system:
+1667 error     node-gyp rebuild
+1667 error You can get information on how to open an issue for this project with:
+1667 error     npm bugs node-opus
+1667 error Or if that isn't available, you can get their info via:
+1667 error     npm owner ls node-opus
+1667 error There is likely additional logging output above.
+1668 verbose exit [ 1, true ]
