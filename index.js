@@ -167,9 +167,9 @@ bot.on('message', function(message) {
             break;
         case "stab":
             let user = message.mentions.users.first();
-
+            if (!user === undefined) return;
             var randomNum = Math.floor(Math.random() * (25 - 1)) + 1;
-            if (!message.mentions.users.first().id === bot.id) {
+            if (message.mentions.users.first().id !== bot.id) {
             message.channel.sendMessage(`Took ` + randomNum + ` damage from ` + user +  `!`)
             } else {
                 message.channel.sendMessage(`Ouch.`)
