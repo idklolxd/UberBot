@@ -167,12 +167,12 @@ bot.on('message', function(message) {
             break;
         case "stab":
             let user = message.mentions.users.first();
-            if (!user === undefined) return;
+            if (user !== undefined) return;
             var randomNum = Math.floor(Math.random() * (25 - 1)) + 1;
-            if (message.mentions.users.first().id !== bot.id) {
-            message.channel.sendMessage(`Took ` + randomNum + ` damage from ` + user +  `!`)
+            if (message.mentions.users.first().id !== "354358007376642048") {
+            message.channel.send(`Took ` + randomNum + ` damage from ` + user +  `!`)
             } else {
-                message.channel.sendMessage(`Ouch.`)
+                message.channel.send(`Ouch.`)
             }
             break;
         case "fortunecookie":
