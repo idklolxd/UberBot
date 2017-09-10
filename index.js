@@ -53,14 +53,14 @@ var servers = {};
 //ffmpeg –version
 
 bot.on('ready', function() {
-    bot.user.setGame(bot.guilds.size + ` servers | ` + `Do $help`)
+    bot.user.setGame(bot.guilds.size + ` servers | ` + `Do u/help`)
     console.log('Ready!')
 });
 
 music(bot, {prefix: PREFIX, global: false, maxQueueSize: 20, anyoneCanSkip: true, clearInvoker: false, volume: 100});
 
 bot.on("guildCreate", guild => {
-    bot.user.setGame(bot.guilds.size + ` servers | ` + `Do $help`)
+    bot.user.setGame(bot.guilds.size + ` servers | ` + `Do u/help`)
     console.log(`New guild added : ${guild.name}, owned by ${guild.owner.user.username}`)
 });
 
