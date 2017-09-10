@@ -86,7 +86,7 @@ bot.on('guildMemberRemove', function(member) {
 
 bot.on('message', function(message) {
     if (message.author.equals(bot.user)) return;
-    if (!message.content.startsWith(PREFIX.toLowerCase())) return;
+    if (!message.content.startsWith(PREFIX)) return;
 
     var args = message.content.substring(PREFIX.length).split(" ");
 
